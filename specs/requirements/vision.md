@@ -1,6 +1,5 @@
 Documento de Visão de Produto (DVP)  
 Visão do Produto
-
 Conecta Refeições
 
 # Introdução
@@ -8,7 +7,7 @@ Conecta Refeições
 O documento de Visão do Produto (DVP) é um documento que descreve o produto de software que será desenvolvido. Ele descreve o problema que será resolvido, as principais necessidades dos stakeholders, as principais funcionalidades do sistema, as restrições do projeto, etc.
 
 # Propósito
-
+<!--  -->
 O objetivo deste documento é coletar, analisar e definir características e as necessidades de alto nível do Sistema Conecta Refeições.
 
 Ele se concentra nos recursos necessários aos stakeholders e aos usuários, e nas razões que levam a essas necessidades.
@@ -136,6 +135,8 @@ A solução oferece níveis de acesso personalizados para cada perfil (colaborad
 
 ![Diagrama do sistema](../../assets/diagrama.png)
 
+*__Figura 1__ - Arquitetura ambiental do sistema Conecta refeições*
+
 # Custo e venda
 
  A decisão acerca da viabilidade econômica deste requisito para planejamento de custos e orçamento do projeto dos sistema Conecta Refeições é aplicável ao departamento comercial, gerente de projetos e um futuro cliente.
@@ -171,12 +172,11 @@ O sistema oferece a funcionalidade de exportar os dados de pedidos para o Excel,
 
 # Restrições
 
-1\.**Restrição de orçamento**: O projeto deve ser concluído dentro de um determinado orçamento e não pode excedê-lo.  
-2\.**Restrição de tempo**: O sistema deve ser produzido em um determinado tempo , usando metodologias ágeis entregando , partes do produto   
-3\. **Restrições de hardware**:O sistema deve atender a diversos tipos de hardware, como smartphones , tablets e computadores, além disso deve ser bastante otimizado para funcionar em todos.  
-4\. **Restrições de segurança e privacidade**: O sistema deve atender aos requisitos de segurança, privacidade e proteção de dados do usuário, conforme a Lei Geral de Proteção de Dados (LGPD).  
-5\. **Restrições de usabilidade**: O sistema deve ser fácil de usar e acessível para usuários com deficiências visuais, pouca afinidade com tecnologia e etc…  .  
-6\. **Restrições de interoperabilidade**: O sistema deve ser capaz de interoperar com outros sistemas e aplicativos , como o excel ou o whatsapp .  
-7\. **Restrições de desempenho**: O sistema deve atender aos requisitos de desempenho, como velocidade, escalabilidade e disponibilidade , atender requisições rapidamente .  
-8\.**Restrições de linguagem**: O sistema deve ser compatível com os idiomas inglês e português.
+1\.**Restrição de tempo**: O sistema deve ser produzido em um determinado tempo , usando metodologias ágeis entregando , partes do produto   
+2\. **Restrições de hardware**: O sistema deve ser otimizado o bastante para atender smartphones mais antigos .  
+3\. **Restrições de segurança e privacidade**: O sistema deve atender aos requisitos de segurança, privacidade e proteção de dados do usuário, conforme a Lei Geral de Proteção de Dados (LGPD), visto que estaremos usando dados dos colaboradores das empresas.  
+4\. **Restrições de interface**: O sistema  para os colaboradores das obras optaremos por uma interface mais conversacional, com transcrição de texto para audio e vice versa, além disso o sistema devera ser capaz de concluir todos as operações em poucos passos para evitar demora na hora de efetivar pedidos utilizando ícones em grande escala para o sistema.  
+5\. **Restrições de interoperabilidade**: O sistema tem que possuir uma integração com planilhas e futuramente com o Whatsapp.  
+6\. **Restrições de desempenho**: O sist
+7\.**Restrições de linguagem**: O sistema deve ser compatível com os idiomas inglês e português.
 
