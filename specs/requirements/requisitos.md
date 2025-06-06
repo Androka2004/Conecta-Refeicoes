@@ -61,48 +61,44 @@ Os seguintes usuários foram identificados para o sistema:
 
 Os requisitos funcionais são descritos a seguir.
 
-**[RF001 - RF099]** - Obra
-**[RF100 - 199]** - Restaurante
-**[RF200 - 299]** - Administrador
+- **[RF001 - RF099]** - Obra
+- **[RF100 - 199]** - Restaurante
+- **[RF200 - 299]** - Administrador
 
 **Obra**
 
-**[RF001]** - Como funcionário da obra, gostaria de fazer o login por meio de matrícula e senha.
-**[RF002]** - Como funcinário da obra, gostaria de visualizar o cardápio diário disponível pelos restaurantes parceiros da obra.
-**[RF003]** - Como funcionário da obra, gostaria de selecionar itens do cardápio e confirmar meu pedido de refeição.
-**[RF004]** - Como funcionário da obra, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
-**[RF005]** - Como funcionário da obra, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
-**[RF006]** - Como funcionário da obra, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
-**[RF007]** - Como funcionário do restaurante gostaria de visualizar meu histórico pessoal de pedidos, com possibilidade de filtro temporal.
-**[RF008]** - Como gestor de obra, gostaria de manter funcionários da obra e colaborador do restaurante.
-**[RF009]** - Como gestor de obra, gostaria de manter resturantes parceiros, atribuindo a suas respectivas obras.
-**[RF010]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro temporal.
-**[RF011]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
+- **[RF001]** - Como funcionário da obra, gostaria de fazer o login por meio de matrícula e senha.
+- **[RF002]** - Como funcinário da obra, gostaria de visualizar o cardápio diário disponível pelos restaurantes parceiros da obra.
+- **[RF003]** - Como funcionário da obra, gostaria de selecionar itens do cardápio e confirmar meu pedido de refeição.
+- **[RF004]** - Como funcionário da obra, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
+- **[RF005]** - Como funcionário da obra, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
+- **[RF006]** - Como funcionário da obra, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
+- **[RF007]** - Como funcionário do restaurante gostaria de visualizar meu histórico pessoal de pedidos, com possibilidade de filtro temporal.
+- **[RF008]** - Como gestor de obra, gostaria de manter funcionários da obra e colaborador do restaurante.
+- **[RF009]** - Como gestor de obra, gostaria de manter resturantes parceiros, atribuindo a suas respectivas obras.
+- **[RF010]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro temporal.
+- **[RF011]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
 
 
 **Restaurante**
 
-**[RF100]** - Como colaborar do restaurante, gostaria de disponibilizar o cardapio diariamente, para que os funcionários das obras parceiras consigam visualizar. 
-**[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de um pedido (Ex: Pedido aceito, pedido enviado...).
-**[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum material.
-**[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos. 
-**[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra na modalidade self-service, para que tanto a construtora como o restaurante possam ter um controle preciso.
-**[RF105]** - Como colaborador do restaurante, gostaria de visualizar relatórios relacionados a pedidos, com possibilidade de filtro (Temporal, Obra específica).
-**
+- **[RF100]** - Como colaborar do restaurante, gostaria de disponibilizar o cardapio diariamente, para que os funcionários das obras parceiras consigam visualizar. 
+- **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de um pedido (Ex: Pedido aceito, pedido enviado...).
+- **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum material.
+- **[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos. 
+- **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra na modalidade self-service, para que tanto a construtora como o restaurante possam ter um controle preciso.
+- **[RF105]** - Como colaborador do restaurante, gostaria de visualizar relatórios relacionados a pedidos, com possibilidade de filtro (Temporal, Obra específica).
 
-**[RF200]** - 
-**[RF201]** - 
-**[RF202]** - 
-**[RF203]** - 
+
 
 # Requisitos não-funcionais
 
 Os requisitos não-funcionais são descritos a seguir.
 
-**[RNF001 - 050]** - Disponibilidade
-**[RNF051 - 100]** - Privacidade e segurança
-**[RNF100 - 150]** - Usabilidade
-**[RNF151 - 200]** - Suportabilidade
+- **[RNF001 - 050]** - Disponibilidade
+- **[RNF051 - 100]** - Privacidade e segurança
+- **[RNF100 - 150]** - Usabilidade
+- **[RNF151 - 200]** - Suportabilidade
 
 # Disponibilidade
 
