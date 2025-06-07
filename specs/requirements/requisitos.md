@@ -48,10 +48,12 @@ Esta subseção fornece as definições de todos os termos, acrônimos e abrevia
 Os seguintes usuários foram identificados para o sistema:
 
 - Usuário do sistema
-  - Funcionários da obra
-    - Gestor da obra
+  - Usuário Comum
     - Colaborador da Obra
-  - Colaborador do restaurante
+    - Colaborador do restaurante
+  - Administrador
+    - Gestor da obra
+  
 
 
 # Requisitos funcionais
