@@ -49,7 +49,7 @@ Os seguintes usuários foram identificados para o sistema:
 
 - Usuário do sistema
   - Usuário Comum
-    - Colaborador da Obra
+    - Colaborador da obra
     - Colaborador do restaurante
   - Administrador
     - Gestor da obra
