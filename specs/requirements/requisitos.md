@@ -32,7 +32,7 @@ Esta subseção fornece as definições de todos os termos, acrônimos e abrevia
 
 - Identificação dos requisitos: por convenção, a referência a requisitos é feita através do identificador de requisitos, de acordo como descrito abaixo:
 
-  `[IDENTIFICADOR DO TIPO DE REQUISITOSidentificador do requisito]`
+  `[IDENTIFICADOR DO TIPO DE REQUISITOS]`
 
   O identificador do tipo de requisitos é conforme abaixo:
 
@@ -48,12 +48,13 @@ Esta subseção fornece as definições de todos os termos, acrônimos e abrevia
 Os seguintes usuários foram identificados para o sistema:
 
 - Usuário do sistema
-  - Usuários comuns
-    - Funcionários da obra
-        - Gesto de obra
-        - Colaborador da obra
+  - Usuário Comum
+    - Colaborador da obra
     - Colaborador do restaurante
-  - Administrador do sistema
+  - Administrador
+    - Gestor da obra
+  
+
 
 # Requisitos funcionais
 
@@ -61,7 +62,6 @@ Os requisitos funcionais são descritos a seguir.
 
 - **[RF001 - RF099]** - Obra
 - **[RF100 - 199]** - Restaurante
-- **[RF200 - 299]** - Administrador
 
 **Obra**
 
@@ -69,19 +69,19 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF002]** - Como funcinário da obra, gostaria de visualizar o cardápio diário disponível pelos restaurantes parceiros da obra.
 - **[RF003]** - Como funcionário da obra, gostaria de selecionar itens do cardápio e confirmar meu pedido de refeição.
 - **[RF004]** - Como funcionário da obra, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
-- **[RF005]** - Como funcionário da obra, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
+- **[RF005]** - Como funcionário da obra, gostaria de poder editar ou cancelar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
 - **[RF006]** - Como funcionário da obra, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
 - **[RF007]** - Como funcionário do restaurante gostaria de visualizar meu histórico pessoal de pedidos, com possibilidade de filtro temporal.
 - **[RF008]** - Como gestor de obra, gostaria de manter funcionários da obra e colaborador do restaurante.
 - **[RF009]** - Como gestor de obra, gostaria de manter resturantes parceiros, atribuindo a suas respectivas obras.
-- **[RF010]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro temporal.
+- **[RF010]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
 - **[RF011]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
 
 
 **Restaurante**
 
 - **[RF100]** - Como colaborar do restaurante, gostaria de disponibilizar o cardapio diariamente, para que os funcionários das obras parceiras consigam visualizar. 
-- **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de um pedido (Ex: Pedido aceito, pedido enviado...).
+- **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
 - **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum material.
 - **[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos. 
 - **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra na modalidade self-service, para que tanto a construtora como o restaurante possam ter um controle preciso.
@@ -105,9 +105,8 @@ Os requisitos não-funcionais são descritos a seguir.
 
 ## Disponibilidade
 
-- **[RNF001]** - O sistema deve ser desenvolvido de forma que possa ser usado por dispositivos moveis como IOS e Android, e em navegadores web como Google Chrome, Mozilla Firefox, Edge e outros navegadores baseados em chromium.
+- **[RNF001]** - O sistema deve ser desenvolvido de forma que possa ser usado por navegador ou dispositivos moveis como IOS e Android.
 - **[RNF002]** - O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho.
-- **[RNF020]** - O sistema deve ser verificado quanto ao desempenho mínimo tolerado dos lados servidor e clientes. As especificações sobre pré-requisitos de hardware e software para a execução do sistema devem ser apresentadas em uma página de pré-requisitos, que deve ser acessível a partir do rodapé do site.
 - **[RNF]** - O sistema deverá ser robusto e capaz de lidar com falhas de rede ou interrupções parciais sem perda de dados ou degradação significativa do serviço.
 
 
@@ -127,16 +126,23 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF]** - O sistema deverá ser acessível para usuários com diferentes níveis de habilidade tecnológica, com foco na facilidade de uso em dispositivos móveis.
 - **[RNF]** - A interface deverá ter grande visibilidade e legibilidade, especialmente para usuários em ambientes de obra.
 - **[RNF019]** - O sistema deve ser desenvolvido de forma que possa ser acessado por pessoas com deficiência visual, auditiva e física.
+- **[RNF]** - O sistema deverá permitir a configuração de métodos de notificação (ex: e-mail, push notification) para eventos (ex: pedido confirmado, alteração de status) para cada usuário.
 
 ## Suportabilidade
 
+- **[RNF151]** - O sistema deverá suportar diferentes navegadores, sendo eles: Google Chrome, Microsoft Edge, Mozilla Firefox e Opera. Em caso de dispositivo móvel: Android 11 (2020) ou superior / IOS 15 (2021) ou superior.
+
 ## Interoperabilidade
+
+- **[RNF]** - O sistema deverá exportar relatórios no formato CSV e XLSX.
 
 ## Manutenibilidade
 
 - **[RNF008]** - O código do sistema deverá ser bem documentado, modular e fácil de manter, permitindo que a equipe de desenvolvimento realize correções e atualizações de forma eficiente.
 - **[RNF009]** - O sistema deverá ser projetado de forma a facilitar a escrita e execução de testes automatizados e manuais, garantindo a qualidade e a detecção precoce de erros.
 - **[RNF016]** - O sistema deve ser documentado de forma que possa ser facilmente compreendido por terceiros e para facilitar a manutenção do sistema.
+- **[RNF]** - Deverão ser implementadas ferramentas de monitoramento para acompanhar o desempenho e disponibilidade do sistema em tempo real.
+- **[RNF]** - O sistema deverá ter ferramentas de monitoramento deverão enviar alertas automáticos para a equipe de suporte em caso de anomalias ou falhas críticas.
 
 ## Desempenho
 
@@ -146,7 +152,15 @@ Os requisitos não-funcionais são descritos a seguir.
 
 ## Implementação
 
+- **[RNF]** - Deverá ser disponibilizada uma central de ajuda ou seção de FAQ dentro do aplicativo ou em um portal dedicado, com informações sobre o uso do sistema.
+- **[RNF]** - Deverá ser fornecido treinamento inicial para Gestores de Obra, Administradores e Colaboradores do Restaurante sobre o uso do sistema.
+
 ## Implantação
+
+- **[RNF]** - O sistema deverá ser implantado em uma infraestrutura de servidores robusta e escalável, preferencialmente em nuvem
+- **[RNF]** - Deverão ser mantidos ambientes separados para desenvolvimento e produção, para garantir testes seguros antes do deploy.
+
+
 
 
 
