@@ -32,7 +32,7 @@ Esta subseção fornece as definições de todos os termos, acrônimos e abrevia
 
 - Identificação dos requisitos: por convenção, a referência a requisitos é feita através do identificador de requisitos, de acordo como descrito abaixo:
 
-  `[IDENTIFICADOR DO TIPO DE REQUISITOSidentificador do requisito]`
+  `[IDENTIFICADOR DO TIPO DE REQUISITOS]`
 
   O identificador do tipo de requisitos é conforme abaixo:
 
@@ -105,9 +105,8 @@ Os requisitos não-funcionais são descritos a seguir.
 
 ## Disponibilidade
 
-- **[RNF001]** - O sistema deve ser desenvolvido de forma que possa ser usado por dispositivos moveis como IOS e Android, e em navegadores web como Google Chrome, Mozilla Firefox, Edge e outros navegadores baseados em chromium.
+- **[RNF001]** - O sistema deve ser desenvolvido de forma que possa ser usado por navegador ou dispositivos moveis como IOS e Android.
 - **[RNF002]** - O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho.
-- **[RNF020]** - O sistema deve ser verificado quanto ao desempenho mínimo tolerado dos lados servidor e clientes. As especificações sobre pré-requisitos de hardware e software para a execução do sistema devem ser apresentadas em uma página de pré-requisitos, que deve ser acessível a partir do rodapé do site.
 - **[RNF]** - O sistema deverá ser robusto e capaz de lidar com falhas de rede ou interrupções parciais sem perda de dados ou degradação significativa do serviço.
 
 
@@ -130,7 +129,11 @@ Os requisitos não-funcionais são descritos a seguir.
 
 ## Suportabilidade
 
+- **[RNF151]** - O sistema deverá suportar diferentes navegadores, sendo eles: Google Chrome, Microsoft Edge, Mozilla Firefox e Opera. Em caso de dispositivo móvel: Android 11 (2020) ou superior / IOS 15 (2021) ou superior.
+
 ## Interoperabilidade
+
+- **[RNF]** - O sistema deverá exportar relatórios no formato CSV e XLSX.
 
 ## Manutenibilidade
 
@@ -145,6 +148,8 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF]** - O software deverá conseguir suportar diversas requisições simultâneas (pedidos, confirmações) em horários de pico (ex: horários de refeição), sem degradação perceptível no desempenho.
 
 ## Implementação
+
+- **[RNF]** -
 
 ## Implantação
 
