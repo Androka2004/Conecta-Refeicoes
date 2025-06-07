@@ -49,10 +49,10 @@ Os seguintes usuários foram identificados para o sistema:
 
 - Usuário do sistema
   - Usuários comuns
-    - Funcionários da obra
-        - Gesto de obra
-        - Colaborador da obra
-    - Colaborador do restaurante
+    - Colaborador da obra
+    - Colaborador do restaurant
+ - Administrador do sistema 
+    - Gestor de Obra
 
 
 # Requisitos funcionais
