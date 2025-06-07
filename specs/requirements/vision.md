@@ -1,7 +1,6 @@
 Documento de Visão de Produto (DVP)  
 Visão do Produto
 Conecta Refeições
-
 # Introdução
 
 O documento de Visão do Produto (DVP) é um documento que descreve o produto de software que será desenvolvido. Ele descreve o problema que será resolvido, as principais necessidades dos stakeholders, as principais funcionalidades do sistema, as restrições do projeto, etc.
@@ -105,17 +104,18 @@ Usuários e atores
 
 ## Ambiente de uso
 
-Ambiente dos Colaboradores:  
-Neste ambiente, o sistema é utilizado pelos colaboradores das obras para realizar os pedidos de refeições. Eles acessam o sistema principalmente por meio de dispositivos móveis, como smartphones e tablets, utilizando os sistemas operacionais Android ou iOS. 
+### Ambiente dos Colaboradores da obra:
+Neste ambiente, o sistema é utilizado pelos colaboradores das obras para realizar os pedidos de refeições. Eles acessam o sistema principalmente por meio de dispositivos móveis, como smartphones e tablets, utilizando os sistemas operacionais se for Android 11 de 2020 ou maior , e se for IOS versão 15 de 2021 ou superior. 
 
-Ambiente do Restaurante Parceiro:  
-Neste ambiente, o sistema é utilizado pelos funcionários dos restaurantes que recebem e processam os pedidos feitos pelos colaboradores. O acesso ocorre de preferência por computadores, permitindo a visualização, confirmação e registro dos pedidos em tempo real. 
+### Ambiente do Restaurante Parceiro:  
+Neste ambiente, o sistema é utilizado pelos funcionários dos restaurantes que recebem e processam os pedidos feitos pelos colaboradores. O acesso ocorre de preferência por computadores, permitindo a visualização, confirmação e registro dos pedidos em tempo real, sendo disponibilizado nos seguintes navegadores Google Chrome, Microsoft Edge, Firefox e Opera . 
 
-Ambiente Administrativo da Construtora:  
-Aqui, o sistema é usado pela equipe administrativa responsável por controlar e gerenciar os pedidos de refeições das obras. Eles acessam principalmente pelo computador para gerar relatórios, analisar dados e integrar informações com planilhas Excel. O ambiente conta com acesso restrito para garantir a segurança e a confidencialidade dos dados.
+### Ambiente Administrativo da Construtora:  
+Aqui, o sistema é usado pela equipe administrativa responsável por controlar e gerenciar os pedidos de refeições das obras. Eles acessam principalmente pelo computador para gerar relatórios, analisar dados e integrar informações com planilhas virtuais, como Excel e GoogleSpreadSheet. O ambiente conta com acesso restrito para garantir a segurança e a confidencialidade dos dados.O sistema sera acessado com um site na WEB, sendo disponibilizado nos seguintes navegadores oogle Chrome, Microsoft Edge, Firefox e Opera.
 
-Ambiente de Suporte e Desenvolvimento:  
-Aqui a equipe de TI realiza manutenções, testes e melhorias no sistema antes de disponibilizá-lo para os usuários. Funciona em ambientes controlados, com acesso restrito, permitindo testar novas funções e corrigir erros com segurança.
+### Ambiente de Suporte e Desenvolvimento:  
+Neste ambiente é onde será desenvolvido o código fonte do sistema.A equipe de desenvolvimento operará em ambientes controlados e restritos , o ambiente deve suportar 
+o git como principal ferramenta de controle de versão, contará com um ambiente de testes dedicado, o ambiente também deve possuir uma implementação de ferramentas de Integração continua e Entrega continua para agilizar processos de build, teste e implantatação.
 
 # Necessidades principais quanto ao ambiente
 
@@ -139,7 +139,7 @@ A solução oferece níveis de acesso personalizados para cada perfil (colaborad
 
 # Custo e venda
 
- A decisão acerca da viabilidade econômica deste requisito para planejamento de custos e orçamento do projeto dos sistema Conecta Refeições é aplicável ao departamento comercial, gerente de projetos e um futuro cliente.
+ O custeamento para o desenvolvimento desse projeto será proveniente da Construtora, a qual requisitou a construção do sistema e terá participação na apuração das regras de negócio do projeto. Futuramente, o sistema também pode ser adaptado para contextos gerais, e ter sua licença disponibilizada para venda no mercado para potenciais clientes. Nesse caso, a Construtora que solicitou o projeto terá descontos para compra da licença, mas o valor obtido com as vendas da licença para outros clientes irá para a empresa desenvolvedora do sofware
 
 # Licenciamento e instalação
 
@@ -158,7 +158,7 @@ A propriedade intelectual do Conecta Refeições permanecerá integralmente com 
 1 \- Cadastro e autenticação de usuários  
 O sistema permite o cadastro e login de diferentes tipos de usuários: colaboradores, administradores e restaurantes. Cada perfil terá permissões específicas, garantindo segurança e controle de acesso.
 
-2- Solicitar refeição  
+2 \- Solicitar refeição  
 Permite que o colaborador faça seu pedido de refeição de forma simples e rápida, com validações que garantem que o pedido seja feito dentro do prazo estipulado pelo restaurante.
 
 3 \- Visualização e gerenciamento de pedidos  
@@ -172,11 +172,16 @@ O sistema oferece a funcionalidade de exportar os dados de pedidos para o Excel,
 
 # Restrições
 
-1\.**Restrição de tempo**: O sistema deve ser produzido em um determinado tempo , usando metodologias ágeis entregando , partes do produto   
-2\. **Restrições de hardware**: O sistema deve ser otimizado o bastante para atender smartphones mais antigos .  
+1\.**Restrição de tempo**: O sistema deve ser produzido dentro de um prazo de 18 meses, com entregas incrementais a cada 2 semanas de seguindo metodologias ágeis
+ 
+2\. **Restrições de hardware**:O sistema deve ser otimizado o suficiente para funcionar em smartphones com a versão operacional se for Android 11 de 2020 ou maior , e se for IOS versão 15 de 2021 ou superior.Para ambientes que desejam fazer a instalação deve ser necessario Windowns 11 
+
 3\. **Restrições de segurança e privacidade**: O sistema deve atender aos requisitos de segurança, privacidade e proteção de dados do usuário, conforme a Lei Geral de Proteção de Dados (LGPD), visto que estaremos usando dados dos colaboradores das empresas.  
-4\. **Restrições de interface**: O sistema  para os colaboradores das obras optaremos por uma interface mais conversacional, com transcrição de texto para audio e vice versa, além disso o sistema devera ser capaz de concluir todos as operações em poucos passos para evitar demora na hora de efetivar pedidos utilizando ícones em grande escala para o sistema.  
-5\. **Restrições de interoperabilidade**: O sistema tem que possuir uma integração com planilhas e futuramente com o Whatsapp.  
-6\. **Restrições de desempenho**: O sist
+
+4\. **Restrições de interface**: O sistema deve permitir que os colaboradores concluam a solicitação de refeição em poucos passos, com interface conversacional para os colaboradores da obra (texto para áudio e áudio para texto) e ícones grandes para facilitar a usabilidade em campo.
+
+5\. **Restrições de interoperabilidade**: O sistema tem que possuir uma integração com aplicações de planilhas como Excel e Google SpreadSheet e futuramente com o Whatsapp em uma fase posterior.  
+6\. **Restrições de desempenho**:O sistema dever ser capaz inicialmente de processar simultaneamente 500 a 1000 requisições de pedidos e confirmação sem uma degradação perceptivel, mantendo o tempo de resposta abaixo de 5 segundos 
+
 7\.**Restrições de linguagem**: O sistema deve ser compatível com os idiomas inglês e português.
 
