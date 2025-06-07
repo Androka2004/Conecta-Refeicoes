@@ -50,7 +50,7 @@ Os seguintes usuários foram identificados para o sistema:
 - Usuário do sistema
   - Usuários comuns
     - Colaborador da obra
-    - Colaborador do restaurant
+    - Colaborador do restaurante
  - Administrador do sistema 
     - Gestor de Obra
 
