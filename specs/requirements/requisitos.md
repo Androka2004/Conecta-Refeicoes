@@ -19,8 +19,6 @@
   - [Desempenho](#desempenho)
   - [Implementação](#implementação)
   - [Implantação](#implantação)
-- [Matriz de rastreabilidade](#matriz-de-rastreabilidade)
-  - [Rastreabilidade entre NFs e RNFs](#rastreabilidade-entre-nfs-e-rnfs)
 
 ---
 
@@ -97,10 +95,15 @@ Os requisitos não-funcionais são descritos a seguir.
 
 - **[RNF001 - 050]** - Disponibilidade
 - **[RNF051 - 100]** - Privacidade e segurança
-- **[RNF100 - 150]** - Usabilidade
+- **[RNF101 - 150]** - Usabilidade
 - **[RNF151 - 200]** - Suportabilidade
+- **[RNF201 - 250]** - Interoperabilidade
+- **[RNF251 - 300]** - Manutenibilidade
+- **[RNF301 - 350]** - Desempenho
+- **[RNF351 - 400]** - Implementação
+- **[RNF401 - 450]** - Implantação
 
-# Disponibilidade
+## Disponibilidade
 
 - **[RNF001]** - O sistema deve ser desenvolvido de forma que possa ser usado por dispositivos moveis como IOS e Android, e em navegadores web como Google Chrome, Mozilla Firefox, Edge e outros navegadores baseados em chromium.
 - **[RNF002]** - O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho.
@@ -108,7 +111,7 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF]** - O sistema deverá ser robusto e capaz de lidar com falhas de rede ou interrupções parciais sem perda de dados ou degradação significativa do serviço.
 
 
-## Segurança e confiabilidade
+## Privacidade e segurança
 
 - **[RNF051]** - O sistema deve ser desenvolvido de forma que os dados dos clientes sejam protegidos e não sejam acessíveis por terceiros.
 - **[RNF052]** - O sistema deve atender aos requisitos de privacidade da LGPD (Lei Geral de Proteção de Dados).
@@ -125,7 +128,12 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF]** - A interface deverá ter grande visibilidade e legibilidade, especialmente para usuários em ambientes de obra.
 - **[RNF019]** - O sistema deve ser desenvolvido de forma que possa ser acessado por pessoas com deficiência visual, auditiva e física.
 
+## Suportabilidade
+
+## Interoperabilidade
+
 ## Manutenibilidade
+
 - **[RNF008]** - O código do sistema deverá ser bem documentado, modular e fácil de manter, permitindo que a equipe de desenvolvimento realize correções e atualizações de forma eficiente.
 - **[RNF009]** - O sistema deverá ser projetado de forma a facilitar a escrita e execução de testes automatizados e manuais, garantindo a qualidade e a detecção precoce de erros.
 - **[RNF016]** - O sistema deve ser documentado de forma que possa ser facilmente compreendido por terceiros e para facilitar a manutenção do sistema.
@@ -135,6 +143,13 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF]** - Tempo de Resposta: As requisições do usuário (ex: carregar cardápio, confirmar pedido) deverão ser atendidas em menos de 2 segundos na maioria dos casos.
 - **[RNF]** - A aplicação deverá ser otimizada para suportar dispositivos móveis com poder computacional limitado, garantindo uma experiência fluida mesmo em smartphones mais antigos.
 - **[RNF]** - O software deverá conseguir suportar diversas requisições simultâneas (pedidos, confirmações) em horários de pico (ex: horários de refeição), sem degradação perceptível no desempenho.
+
+## Implementação
+
+## Implantação
+
+
+
 
 
 
