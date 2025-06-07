@@ -88,17 +88,21 @@ Oferecer uma API pública que permite integrar o Conecta Refeições com outros 
 | Stakeholder | Descrição | Papel |
 | ----- | ----- | ----- |
 | Construtora | Empresa responsável pela obra que deseja otimizar o processo de solicitação e controle de refeições para seus colaboradores. | Contrata e utiliza o sistema |
-| Restaurante | Restaurante que vai ser integrado a aplicação e vai ofertar as refeições | Utiliza e é um dos beneficiados do desenvolvimento do sistema, já que os pedidos  |
+| Restaurante | Restaurante que vai ser integrado a aplicação e vai ofertar as refeições | Utiliza e é um dos beneficiados do desenvolvimento do sistema, já que os pedidos serão passados e validados por eles  |
 | Equipe de Suporte e Desenvolvimento | Profissionais técnicos responsáveis pela manutenção, atualização e suporte do sistema | Garantem que a plataforma funcione sem interrupções, resolvem problemas técnicos e fazem melhorias e atualizações sempre que necessário |
-
-Usuários e atores
+|Colaborador da obra | Colaboradores que trabalham na obra, tanto no escritorio quanto na obra  | Utiliza e é um beneficiados do desenvolvimento do sistema, visto que vai começar a fazer os pedidos pelo sistema, garantindo que tenha menos erros na obra e na hora de confirmar o pedido 
+|Colaborador do restaurante | Trabalhadores do restaurante que vão confirmar o pedidos dos colaboradores da obra | Utiliza o sistema para validar os pedidos e enviaram e confirmarem as saídas dos pedidos 
+|Gestor da obra |Colaborador da obra que é responsável por gerir a obra|  Monitoram os pedidos feitos, gerenciam a distribuição das refeições e conferem os relatórios
+|||
+# Usuários e atores
 
 | Usuário | Descrição | Responsabilidades | Stakeholders |
 | ----- | ----- | ----- | ----- |
-| Colaborador da obra | Funcionários que atuam diretamente nas obras e realizam os pedidos de refeições pelo aplicativo. | Utilizam o sistema para escolher e solicitar suas refeições | Construtura |
-| Colaborador do restaurante | Funcionário dos restaurantes que recebem e processam os pedidos feitos pelos colaboradores. | Recebem, confirmam e registram os pedidos | Restaurante |
-| Gestores de Obras | Profissionais responsáveis pelo acompanhamento da obra, controle de pedidos e etc... | Monitoram os pedidos feitos, gerenciam a distribuição das refeições e conferem os relatórios | Construtora |
-| Administrador | Funcionário que cadastra na planilha | Cadastram os dados das assinaturas em planilhas,  | Construtora |
+| Colaborador da obra | Funcionários que atuam diretamente nas obras e realizam os pedidos de refeições pelo aplicativo. | Utilizam o sistema para escolher e solicitar suas refeições | Construtura, Colaborador da obra  |
+| Colaborador do restaurante | Funcionário dos restaurantes que recebem e processam os pedidos feitos pelos colaboradores. | Recebem, confirmam e registram os pedidos | Restaurante, Colaborador do restaurante |
+| Gestores de Obras | Profissionais responsáveis pelo acompanhamento da obra, controle de pedidos entre outras funções | Monitoram os pedidos feitos, gerenciam a distribuição das refeições e conferem os relatórios | Construtora, Gestor da obra |
+| Administrador | Usuário administrativo com permissões totais para configurar, gerenciar e auditar o sistema. | Cadastram os dados das assinaturas no sistema, faz a gestão de usuarios, e no geral gerencia o sistema  | Construtora |
+|  |  |  |  |
 
 # Descrição do ambiente de uso
 
