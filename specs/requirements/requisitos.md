@@ -51,8 +51,9 @@ Os seguintes usuários foram identificados para o sistema:
   - Usuário Comum
     - Colaborador da obra
     - Colaborador do restaurante
-  - Administrador
+  - Usuário administrador
     - Gestor da obra
+    - Administrador do sistema 
   
 
 
@@ -60,33 +61,64 @@ Os seguintes usuários foram identificados para o sistema:
 
 Os requisitos funcionais são descritos a seguir.
 
-- **[RF001 - RF099]** - Obra
-- **[RF100 - 199]** - Restaurante
+- **[RF001 - RF199]** - Usuário comum
+  + **[RF001 - RF099]** - Colaborador da Obra
+  + **[RF100 - RF199]** - Colaborador do restaurante
+- **[RF200 - RF399]** Usuário admnistrador
+  + **[RF200 - RF299]** - Gestor da obra 
+  + **[RF300 - RF399]** - Administrador do sistema
 
-**Obra**
+## **Usuário comum**
 
-- **[RF001]** - Como funcionário da obra, gostaria de fazer o login por meio de matrícula e senha.
-- **[RF002]** - Como funcinário da obra, gostaria de visualizar o cardápio diário disponível pelos restaurantes parceiros da obra.
-- **[RF003]** - Como funcionário da obra, gostaria de selecionar itens do cardápio e confirmar meu pedido de refeição.
-- **[RF004]** - Como funcionário da obra, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
-- **[RF005]** - Como funcionário da obra, gostaria de poder editar ou cancelar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
-- **[RF006]** - Como funcionário da obra, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
-- **[RF007]** - Como funcionário do restaurante gostaria de visualizar meu histórico pessoal de pedidos, com possibilidade de filtro temporal.
-- **[RF008]** - Como gestor de obra, gostaria de manter funcionários da obra e colaborador do restaurante.
-- **[RF009]** - Como gestor de obra, gostaria de manter resturantes parceiros, atribuindo a suas respectivas obras.
-- **[RF010]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
-- **[RF011]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
+### **Colaborador da obra**
+
+- **[RF001]** - Como colaborador da obra, gostaria de fazer o login por meio de matrícula e senha.
+- **[RF002]** - Como colaborador da obra, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
+- **[RF003]** - Como colaborador da obra, gostaria de selecionar itens do cardápio e confirmar meu pedido de refeição.
+- **[RF004]** - Como colaborador da obra, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
+- **[RF005]** - Como colaborador da obra, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
+- **[RF006]** - Como colaborador da obra, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
+
+<!-- - **[RF007]** - Como funcionário do restaurante gostaria de visualizar meu histórico pessoal de pedidos, com possibilidade de filtro temporal. -->
+- **[RF008]** - Como colaborador da obra gostaria que tivesse como eu me comunicar diretamente com alguém do restaurante.
+- **[RF009]** - Como colaborador da obra eu deveria ter como me autenticar na planilha com o aplicativo
+- **[RF010]** - Como colaborador da obra eu tenho que conseguir definir o tamanho da minha fonte 
+- **[RF011]** - Eu como colaborador da obra, desejo poder escolher se vou comer na obra ou no restaurante
+- **[RF012]** - Eu como colaborador da obra, desejo cancelar meu pedido, desde que seja antes do prazo limite estabelecido
 
 
-**Restaurante**
 
-- **[RF100]** - Como colaborar do restaurante, gostaria de disponibilizar o cardapio diariamente, para que os funcionários das obras parceiras consigam visualizar. 
+
+### **Colaborador do restaurante**
+
+- **[RF100]** - Como colaborar do restaurante, gostaria de emitir o cardapio diariamente, para que os funcionários das obras parceiras consigam visualizar. 
 - **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
-- **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum material.
-- **[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos. 
-- **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra na modalidade self-service, para que tanto a construtora como o restaurante possam ter um controle preciso.
-- **[RF105]** - Como colaborador do restaurante, gostaria de visualizar relatórios relacionados a pedidos, com possibilidade de filtro (Temporal, Obra específica).
+- **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum ingrediente.
+- **[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos, se não estabelecer será estabelecido automaticamente por meio do sistema. 
+- **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra quando visitam o restaurante, para que tanto a construtora como o restaurante possam ter um controle preciso.
+- **[RF105]** - Como colaborador do restaurante, gostaria de visualizar relatórios relacionados a pedidos, com possibilidade de filtro (Temporal, Obra específica). <!-- Meio estranho -->
+- **[RF106]** - Eu como colaborador do restaurante,gostaria de negar a edição de um pedido de um colaborador, visto que o pedido pode ja esta sendo produzido quando ele solicitar a edição.
+- **[RF107]** - Eu como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia.
+- **[RF108]** - Eu como colaborador do restaurante deveria ter a opção de importar os pedidos das empresas parceiras.
+- **[RF109]** - Eu como colaborador do restaurante devo visualizar os pratos mais pedidos, para me previnir e comprar mais ingredientes para esse prato.
+- **[RF110]** - Eu como colaborador do restaurante gostaria de autenticar o colaborador da obra afim de não acontecer fraude. 
+- **[RF111]** - Eu como colaborador do restaurante gostaria de me autenticar no sistema.
 
+
+
+## Usuario administrador
+
+### **Gestor da obra**
+- **[RF208]** - Como gestor de obra, gostaria de manter funcionários da obra e colaborador do restaurante.
+- **[RF209]** - Como gestor de obra, gostaria de manter resturantes parceiros, atribuindo a suas respectivas obras.
+- **[RF210]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
+- **[RF211]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
+
+### **Administrador do sistema**
+- **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
+- **[RF301]** - Eu como administrador do sistema devo poder cadastrar usuarios do sistema.
+- **[RF302]** - Eu como administrador desejo comparar os dados enviados do Gestor da obra com o do Colaborador do restaurante, para analisar se são iguais.
+- **[RF303]** - Eu como administrador do sistema dejeso poder criar rotinas de exportação de dados, para ter uma rastreabilidade maior dos pedidos
 
 
 # Requisitos não-funcionais
