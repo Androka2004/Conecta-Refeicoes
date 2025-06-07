@@ -49,9 +49,9 @@ Os seguintes usuários foram identificados para o sistema:
 
 - Usuário do sistema
   - Funcionários da obra
-    - Colaborador da obra
-    - Gestor de Obra
- - Colaborador do restaurante
+    - Gestor da obra
+    - Colaborador da Obra
+  - Colaborador do restaurante
 
 
 # Requisitos funcionais
