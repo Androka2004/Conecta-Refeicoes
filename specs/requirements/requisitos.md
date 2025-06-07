@@ -53,7 +53,7 @@ Os seguintes usuários foram identificados para o sistema:
         - Gesto de obra
         - Colaborador da obra
     - Colaborador do restaurante
-  - Administrador do sistema
+
 
 # Requisitos funcionais
 
