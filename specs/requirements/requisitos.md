@@ -118,11 +118,6 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
 - **[RF204]** - Como gestor da obra eu posso confirmar que todos os pedidos chegaram, porém ainda ficará salvo qual colaborador da obra confirmou ou não. 
 
-
-
-
-
-
 #### **Administrador do sistema**
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
 - **[RF301]** - Eu como administrador do sistema devo poder cadastrar usuarios do sistema.
