@@ -96,7 +96,6 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF004]** - Como funcionário da construtora, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
 - **[RF005]** - Como funcionário da construtora, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
 - **[RF006]** - Como funcionário da construtora, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
-
 - **[RF007]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos, com possibilidade de filtro temporal.
 - **[RF008]** - Como colaborador da obra gostaria que tivesse como eu me comunicar diretamente com alguém do restaurante.
 - **[RF009]** - Como colaborador da obra eu deveria ter como me autenticar com o aplicativo.
@@ -105,7 +104,7 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF012]** - Eu como colaborador da obra, desejo cancelar meu pedido, desde que seja antes do prazo limite estabelecido
 - **[RF014]** - Eu como colaborador da obra desejo pedir o café da manhã na noite anterior.
 - **[RF015]** - Eu como colaborador da obra desejo confirmar o recebimento do meu alimento no aplicativo.
-- **[RF016]** - Eu como funcionario da construtora gostaria de redefinir minha senha
+- **[RF016]** - Eu como funcionario da construtora gostaria de redefinir minha senha. 
 - **[RF017]** - Eu como funcionario da construtora, gostaria de visualizar o status do pedido
 - **[RF018]** - Como usuario do sistema gostaria que tivesse uma opção "Lembrar de mim"
 
@@ -115,20 +114,10 @@ Os requisitos funcionais são descritos a seguir.
 
 #### **Gestor da obra**
 - **[RF200]** - Como gestor de obra, gostaria de manter colaboradores da obra.
-
-
 - **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
-
 - **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
-
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
-
 - **[RF204]** - Como gestor da obra eu posso confirmar que todos os pedidos chegaram, porém ainda ficará salvo qual colaborador da obra confirmou ou não. 
-
-
-
-
-
 
 #### **Administrador do sistema**
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
@@ -144,20 +133,20 @@ Os requisitos funcionais são descritos a seguir.
 
 ### **Colaborador do restaurante**
 
-- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardapio diariamente, para que os funcionários das obras parceiras consigam visualizar. 
+- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardapio diariamente (Escolhendo as sessões e definindo a quantidade de escolhas que o colaborador pode fazer por sessão), para que os funcionários das obras parceiras consigam visualizar.  
 - **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
 - **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum ingrediente.
 - **[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos, se não estabelecer será estabelecido automaticamente por meio do sistema. 
 - **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra quando visitam o restaurante, para que tanto a construtora como o restaurante possam ter um controle preciso.
 - **[RF105]** - Como colaborador do restaurante, gostaria de visualizar relatórios relacionados a pedidos, com possibilidade de filtro (Temporal, Obra específica). <!-- Meio estranho -->
-- **[RF106]** - Eu como colaborador do restaurante,gostaria de negar a edição de um pedido de um colaborador, visto que o pedido pode ja esta sendo produzido quando ele solicitar a edição.
-- **[RF107]** - Eu como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia.
-- **[RF108]** - Eu como colaborador do restaurante deveria ter a opção de importar os pedidos das empresas parceiras.
-- **[RF109]** - Eu como colaborador do restaurante devo visualizar os pratos mais pedidos, para me previnir e comprar mais ingredientes para esse prato.
-- **[RF110]** - Eu como colaborador do restaurante gostaria de autenticar o colaborador, por meio de uma autenticação de 2 fatores,da obra afim de não acontecer fraude. 
-- **[RF111]** - Eu como colaborador do restaurante, gostaria de alterar o prazo limite para a solicitação de uma refeição daquele turno depois de estabelecido.
-- **[RF112]** - Eu como colaborador do restaurante, gostaria de avisar a construtora que não poderei fornecer alguma refeição do dia.
-- **[RF113]** - Eu como colaborador do restaurante, após importar os pedidos da obra gostaria de imprimir para a cozinha. 
+- **[RF106]** - Como colaborador do restaurante,gostaria de negar a edição de um pedido de um colaborador, visto que o pedido pode ja esta sendo produzido quando ele solicitar a edição.
+- **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia.
+- **[RF108]** - Como colaborador do restaurante deveria ter a opção de importar os pedidos das empresas parceiras.
+- **[RF109]** - Como colaborador do restaurante devo visualizar os pratos mais pedidos, para me previnir e comprar mais ingredientes para esse prato.
+- **[RF110]** - Como colaborador do restaurante, se o funcionário da obra for comer no restaurante presencialmente, gostaria de autenticar ele por meio de uma autenticação de 2 fatores, afim de não acontecer fraude. 
+- **[RF111]** - Como colaborador do restaurante, gostaria de alterar o prazo limite para a solicitação de uma refeição daquele turno depois de estabelecido.
+- **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não sera ofertada refeições naquele dia.
+- **[RF113]** - Como colaborador do restaurante, após importar os pedidos da obra gostaria de imprimir para a cozinha. 
 
 # Requisitos não-funcionais
 
