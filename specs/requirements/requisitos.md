@@ -96,7 +96,6 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF004]** - Como funcionário da construtora, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
 - **[RF005]** - Como funcionário da construtora, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
 - **[RF006]** - Como funcionário da construtora, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
-
 - **[RF007]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos, com possibilidade de filtro temporal.
 - **[RF008]** - Como colaborador da obra gostaria que tivesse como eu me comunicar diretamente com alguém do restaurante.
 - **[RF009]** - Como colaborador da obra eu deveria ter como me autenticar com o aplicativo.
