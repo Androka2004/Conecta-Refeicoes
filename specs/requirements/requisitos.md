@@ -107,6 +107,7 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF015]** - Eu como colaborador da obra desejo confirmar o recebimento do meu alimento no aplicativo.
 - **[RF016]** - Eu como funcionario da construtora gostaria de redefinir minha senha
 - **[RF017]** - Eu como funcionario da construtora, gostaria de visualizar o status do pedido
+- **[RF018]** - Como usuario do sistema gostaria que tivesse uma opção "Lembrar de mim"
 
 
 
