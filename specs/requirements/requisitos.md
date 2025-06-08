@@ -143,7 +143,7 @@ Os requisitos funcionais são descritos a seguir.
 
 ### **Colaborador do restaurante**
 
-- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardapio diariamente, para que os funcionários das obras parceiras consigam visualizar. 
+- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardapio diariamente (Escolhendo as sessões e defininindo a quantidade de escolhar que o colaborador pode fazer por sessão(, para que os funcionários das obras parceiras consigam visualizar.  
 - **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
 - **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum ingrediente.
 - **[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos, se não estabelecer será estabelecido automaticamente por meio do sistema. 
