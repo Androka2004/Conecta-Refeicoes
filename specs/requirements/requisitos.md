@@ -155,7 +155,7 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF109]** - Como colaborador do restaurante devo visualizar os pratos mais pedidos, para me previnir e comprar mais ingredientes para esse prato.
 - **[RF110]** - Como colaborador do restaurante, se o funcionário da obra for comer no restaurante presencialmente, gostaria de autenticar ele por meio de uma autenticação de 2 fatores, afim de não acontecer fraude. 
 - **[RF111]** - Como colaborador do restaurante, gostaria de alterar o prazo limite para a solicitação de uma refeição daquele turno depois de estabelecido.
-- **[RF112]** - Como colaborador do restaurante, gostaria de avisar a construtora que não poderei fornecer alguma refeição do dia.
+- **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não sera ofertada refeições naquele dia.
 - **[RF113]** - Como colaborador do restaurante, após importar os pedidos da obra gostaria de imprimir para a cozinha. 
 
 # Requisitos não-funcionais
