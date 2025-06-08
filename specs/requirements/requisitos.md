@@ -104,7 +104,7 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF012]** - Eu como colaborador da obra, desejo cancelar meu pedido, desde que seja antes do prazo limite estabelecido
 - **[RF014]** - Eu como colaborador da obra desejo pedir o café da manhã na noite anterior.
 - **[RF015]** - Eu como colaborador da obra desejo confirmar o recebimento do meu alimento no aplicativo.
-- **[RF016]** - Eu como funcionario da construtora gostaria de redefinir minha senha
+- **[RF016]** - Eu como funcionario da construtora gostaria de redefinir minha senha. 
 - **[RF017]** - Eu como funcionario da construtora, gostaria de visualizar o status do pedido
 
 
@@ -113,14 +113,9 @@ Os requisitos funcionais são descritos a seguir.
 
 #### **Gestor da obra**
 - **[RF200]** - Como gestor de obra, gostaria de manter colaboradores da obra.
-
-
 - **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
-
 - **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
-
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
-
 - **[RF204]** - Como gestor da obra eu posso confirmar que todos os pedidos chegaram, porém ainda ficará salvo qual colaborador da obra confirmou ou não. 
 
 
