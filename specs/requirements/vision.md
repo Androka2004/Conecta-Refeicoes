@@ -196,7 +196,7 @@ O sistema oferece a funcionalidade de exportar os dados de pedidos para o Excel,
 
 3\. **Restrições de segurança e privacidade**: O sistema deve atender aos requisitos de segurança, privacidade e proteção de dados do usuário, conforme a Lei Geral de Proteção de Dados (LGPD), visto que estaremos usando dados dos colaboradores das empresas.  
 
-4\. **Restrições de interface**: O sistema deve permitir que os colaboradores concluam a solicitação de refeição em poucos passos, com interface conversacional para os colaboradores da obra (texto para áudio e áudio para texto) e ícones grandes para facilitar a usabilidade em campo.
+4\. **Restrições de interface**: O sistema deve permitir que os colaboradores concluam a solicitação de refeição em poucos passos, com interface conversacional para os colaboradores da obra (texto para áudio e áudio para texto, para uma fase posterior) e ícones grandes para facilitar a usabilidade em campo.
 
 5\. **Restrições de interoperabilidade**: O sistema tem que possuir uma integração com aplicações de planilhas como Excel e Google SpreadSheet e futuramente com o Whatsapp em uma fase posterior.  
 
