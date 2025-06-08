@@ -1,6 +1,20 @@
-Documento de Visão de Produto (DVP)  
-Visão do Produto
-Conecta Refeições
+<h1>Visão do Produto</h1>
+
+<h2>Conecta Refeições</h2>
+
+<small>Versão 1.1</small>
+
+---
+
+## Histórico de revisões
+
+|    Data    | Versão |           Descrição           |      Autor       |
+| :--------: | :----: | :---------------------------: | :--------------: |
+| 26/05/2025 |  1.0   |     Criação do documento      | Andrey Vasconcelos, João Pedro Rodrigues, Lucas Emanuel Araujo, Pedro Arthur de Holanda |
+| 06/06/2025 |  1.1   | Correção de informações | Andrey Vasconcelos, João Pedro Rodrigues |
+
+
+---
 # Introdução
 
 O documento de Visão do Produto (DVP) é um documento que descreve o produto de software que será desenvolvido. Ele descreve o problema que será resolvido, as principais necessidades dos stakeholders, as principais funcionalidades do sistema, as restrições do projeto, etc.
@@ -185,6 +199,7 @@ O sistema oferece a funcionalidade de exportar os dados de pedidos para o Excel,
 4\. **Restrições de interface**: O sistema deve permitir que os colaboradores concluam a solicitação de refeição em poucos passos, com interface conversacional para os colaboradores da obra (texto para áudio e áudio para texto) e ícones grandes para facilitar a usabilidade em campo.
 
 5\. **Restrições de interoperabilidade**: O sistema tem que possuir uma integração com aplicações de planilhas como Excel e Google SpreadSheet e futuramente com o Whatsapp em uma fase posterior.  
+
 6\. **Restrições de desempenho**:O sistema dever ser capaz inicialmente de processar simultaneamente 500 a 1000 requisições de pedidos e confirmação sem uma degradação perceptivel, mantendo o tempo de resposta abaixo de 5 segundos 
 
 7\.**Restrições de linguagem**: O sistema deve ser compatível com os idiomas inglês e português.
