@@ -132,11 +132,12 @@ Os requisitos funcionais são descritos a seguir.
 <!-- - **[RF301]** - Eu como administrador do sistema devo poder cadastrar usuarios do sistema. -->
 <!-- - **[RF303]** - Eu como administrador do sistema dejeso poder criar rotinas de exportação de dados, para ter uma rastreabilidade maior dos pedidos -->
 - **[RF304]** - Eu como administrador do sistema dejeso registrar que uma ou mais obras não terão fornecimento de refeição naquele dia
-- **[RF305]** - Eu como administrador do sistema dejeso alterar o restaurante fornecedor de uma obra
+
 - **[RF306]** - Eu como admnistrador do sistema desejo manter os usuários do sistema
 <!-- - **[RF307]** - Eu como admnistrador do sistema mediante a um pedido de um usuario do sistema posso redifinir sua própria senha, ou auxilia-lo mandando um email diretamente com um passo-passo  -->
 - **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra
 - **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras.
+- **[RF310]** - Eu como administrador do sistema posso vizualizar todos os relários gerados do sistema
 
 ### **Colaborador do restaurante**
 
