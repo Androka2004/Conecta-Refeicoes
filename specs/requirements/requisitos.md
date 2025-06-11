@@ -65,13 +65,14 @@ Esta subseção fornece as definições de todos os termos, acrônimos e abrevia
 Os seguintes usuários foram identificados para o sistema:
 
 - Usuário do sistema
-  - Funcionario da Construtora
-    - Colaborador da obra
-    - Administração da Obra
-      - Gestor da obra
-      - Administrador do Sistema 
-  - Colaborador do Restaurante
-  
+  - Administrador do Sistema
+  - Usuario comum   
+    - Funcionario da Construtora
+      - Colaborador da obra
+      - Administração da Obra
+        - Gestor da obra
+    - Colaborador do Restaurante
+    
 
 
 # Requisitos funcionais
@@ -125,9 +126,9 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra e solicitar as refeições para o restaurante antes do prazo limite. 
 
 - **[RF206]** - Eu como gestor da obra desejo avaliar os dados enviados dos colaboradores da obra com o do colaborador do restaurante, para analisar se houver discrepâncias.
+- **[RF207]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra
 
-
-#### **Administrador do sistema**
+### **Administrador do sistema**
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
 <!-- - **[RF301]** - Eu como administrador do sistema devo poder cadastrar usuarios do sistema. -->
 <!-- - **[RF303]** - Eu como administrador do sistema dejeso poder criar rotinas de exportação de dados, para ter uma rastreabilidade maior dos pedidos -->
@@ -135,7 +136,7 @@ Os requisitos funcionais são descritos a seguir.
 
 - **[RF306]** - Eu como admnistrador do sistema desejo manter os usuários do sistema
 <!-- - **[RF307]** - Eu como admnistrador do sistema mediante a um pedido de um usuario do sistema posso redifinir sua própria senha, ou auxilia-lo mandando um email diretamente com um passo-passo  -->
-- **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra
+
 - **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras.
 - **[RF310]** - Eu como administrador do sistema posso vizualizar todos os relários gerados do sistema
 
