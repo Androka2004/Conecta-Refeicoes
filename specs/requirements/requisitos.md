@@ -15,7 +15,7 @@
 |    Data    | Versão |        Descrição         |                                          Autor                                           |
 | :--------: | :----: | :----------------------: | :--------------------------------------------------------------------------------------: |
 | 07/06/2025 |  1.0   |   Criação do documento   | Andrey Vasconcelos, João Pedro Rodrigues,  Lucas Emanuel Araujo, Pedro Arthur de Holanda |
-| 26/07/2025 |  1.0   | Modificação para módulos |                                   João Pedro Rodrigues                                   |
+| 28/07/2025 |  1.0   | Modificação para módulos |                                   João Pedro Rodrigues                                   |
 
 
 ---
@@ -91,7 +91,8 @@ Os requisitos foram classificados em 4 módulos descritos a seguir:
 ### **Módulo Geral**
 - **[RF001]** - Como usuário do sistema, gostaria de fazer o login por meio de matrícula ou e-mail e senha.
 - **[RF010]** - Como usuário do sistema eu tenho que conseguir definir o tamanho da minha fonte no sistema
-- **[RF016]** - Eu como usuário do sistema gostaria de redefinir minha senha. 
+- **[RF016]** - Eu como usuário do sistema gostaria de redefinir minha senha.
+- **[RF018]** - Como usuário do sistema gostaria que tivesse uma opção "Lembrar de mim" quando logasse no aplicativo
 
 ### **Módulo Refeição** 
 - **[RF002]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
@@ -105,10 +106,9 @@ Os requisitos foram classificados em 4 módulos descritos a seguir:
 - **[RF012]** - Eu como funcionário da construtora, desejo cancelar meu pedido, desde que seja antes do prazo limite estabelecido
 - **[RF014]** - Eu como funcionário da construtora, desejo pedir o café da manhã na noite anterior.
 - **[RF015]** - Eu como funcionário da construtora desejo confirmar o recebimento do meu alimento no aplicativo.
-- **[RF016]** - Eu como funcionario da construtora gostaria de redefinir minha senha. 
-- **[RF017]** - Eu como funcionario da construtora, gostaria de visualizar o status do pedido
+- **[RF017]** - Eu como funcionário da construtora, gostaria de visualizar o status do pedido
 - **[RF018]** - Como funcionário da construtora gostaria que tivesse uma opção "Lembrar de mim" quando logasse no aplicativo
-- **[RF019]** - Como funcinário da construtora queria reportar erros no pedido recebido do Restaurante
+- **[RF019]** - Como funcionário da construtora queria reportar erros no pedido recebido do Restaurante
 
 ### **Módulo Restaurante** 
 - **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardápio diariamente (Escolhendo as sessões e definindo a quantidade de escolhas que o colaborador pode fazer por sessão), para que os funcionários das obras parceiras consigam visualizar.  
@@ -129,17 +129,20 @@ Os requisitos foram classificados em 4 módulos descritos a seguir:
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.
 - **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
-- **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas excel.
+- **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas Excel.
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra e solicitar as refeições para o restaurante antes do prazo limite. 
 - **[RF206]** - Eu como gestor da obra desejo avaliar os dados enviados dos colaboradores da obra com o do colaborador do restaurante, para analisar se houver discrepâncias.
+- **[RF207]** - Eu como o gestor da obra desejo poder definir os horários de refeição da obra
 ### **Módulo Administrativo** 
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
 - **[RF304]** - Eu como administrador do sistema desejo registrar que uma ou mais obras não terão fornecimento de refeição naquele dia
 - **[RF305]** - Eu como administrador do sistema desejo alterar o restaurante fornecedor de uma obra
 - **[RF306]** - Eu como administrador do sistema desejo manter os usuários do sistema
-- **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra
+ <!-- %% **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra %% -->
 - **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras.
+- **[RF310]** - Eu como administrador do sistema posso visualizar todos os relatórios gerados do sistema
+
 
 
 
