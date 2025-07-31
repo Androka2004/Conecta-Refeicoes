@@ -78,7 +78,7 @@ Os seguintes usuários foram identificados para o sistema:
 
 # Requisitos funcionais
 
-Os requisitos foram classificados em 4 módulos descritos a seguir:
+Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 - Módulo Geral
 - Módulo Refeição  
@@ -106,8 +106,7 @@ Os requisitos foram classificados em 4 módulos descritos a seguir:
 - **[RF012]** - Eu como funcionário da construtora, desejo cancelar meu pedido, desde que seja antes do prazo limite estabelecido
 - **[RF014]** - Eu como funcionário da construtora, desejo pedir o café da manhã na noite anterior.
 - **[RF015]** - Eu como funcionário da construtora desejo confirmar o recebimento do meu alimento no aplicativo.
-- **[RF017]** - Eu como funcionário da construtora, gostaria de visualizar o status do pedido
-- **[RF018]** - Como funcionário da construtora gostaria que tivesse uma opção "Lembrar de mim" quando logasse no aplicativo
+- **[RF017]** - Eu como funcionário da construtora, gostaria de visualizar o status do pedido 
 - **[RF019]** - Como funcionário da construtora queria reportar erros no pedido recebido do Restaurante
 
 ### **Módulo Restaurante** 
