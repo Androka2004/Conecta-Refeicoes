@@ -110,20 +110,22 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF019]** - Como funcionário da construtora queria reportar erros no pedido recebido do Restaurante
 
 ### **Módulo Restaurante** 
-- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardápio diariamente (Escolhendo as sessões e definindo a quantidade de escolhas que o colaborador pode fazer por sessão), para que os funcionários das obras parceiras consigam visualizar.  
+- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardápio diariamente, para que os funcionários das obras parceiras consigam visualizar.  
 - **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
-- **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum ingrediente.
+- **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum ingrediente. (Pulei por enquanto)
 - **[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos, se não estabelecer será estabelecido automaticamente por meio do sistema. 
 - **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra quando visitam o restaurante, para que tanto a construtora como o restaurante possam ter um controle preciso.
 - **[RF105]** - Como colaborador do restaurante, gostaria de visualizar relatórios relacionados a pedidos, com possibilidade de filtro (Temporal, Obra específica, Pratos pedidos, e etc). <!-- Meio estranho -->
-- **[RF106]** - Como colaborador do restaurante, gostaria de negar a edição de um pedido de um colaborador, em eventuais incidentes.
-- **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia, para cada empresa.
+- ~~**[RF106]** - Como colaborador do restaurante, gostaria de negar a edição de um pedido de um colaborador, em eventuais incidentes.~~
+- **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia, para cada obra.
 <!-- - **[RF108]** - Como colaborador do restaurante deveria ter a opção de importar os pedidos das empresas parceiras. -->
 <!-- - **[RF109]** - Como colaborador do restaurante devo visualizar os pratos mais pedidos, para me previnir e comprar mais ingredientes para esse prato. -->
 - **[RF110]** - Como colaborador do restaurante, se o funcionário da obra for comer no restaurante presencialmente, deve ser possível autenticar ele por meio de uma autenticação de 2 fatores, afim de não acontecer fraude. 
 - **[RF111]** - Como colaborador do restaurante, gostaria de alterar o prazo limite para a solicitação de uma refeição daquele turno depois de estabelecido.
 - **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não sera ofertada refeições naquele dia.
 - **[RF113]** - Como colaborador do restaurante, após importar os pedidos da obra gostaria de imprimir para a cozinha. 
+- **[RF114]** - Como colaborador do restaurante eu posso manter cardápios, definindo categorias (Proteína, Carboidrato, Bebidas, etc... ) e a quantidade de vezes que pode ser pedida. Não pode existir categorias iguais no mesmo cardápio.
+- **[RF115]** - Como colaborador do restaurante posso definir um cardápio para ser disponibilizado em certo dia
 
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.

@@ -1,0 +1,9 @@
+| Caso de uso         | Negar a edição de um pedido                                                                                                                                             |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Objetivo            | Negar a edição de um pedido por algum motivo, como falta de ingrediente, pedido já sendo feito entre outros motivos                                                     |
+| Requisitos          | **[RF106]** , **[RF005]**                                                                                                                                               |
+| Atores              | Colaborador do restaurante, Funcionário da obra                                                                                                                         |
+| Condição de entrada | O funcionário da obra solicita a edição do seu pedido, o colaborador do restaurante percebe uma notificação em cima do item do menu lateral "Gerenciar Pedidos" e clica |
+| Fluxo principal     | 1. O funcionário da obra solicita a edição de seu pedido com uma ho                                                                                                     |
+| Fluxos alternativos | adsasdasa                                                                                                                                                               |
+| Fluxos de exceção   | Isso acontece                                                                                                                                                           |
