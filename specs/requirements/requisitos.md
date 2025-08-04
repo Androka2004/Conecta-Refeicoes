@@ -96,7 +96,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 ### **Módulo Refeição** 
 - **[RF002]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
-- **[RF003]** - Como funcionário da construtora, gostaria de selecionar itens do cardápio e confirmar meu pedido de refeição.
+- **[RF003]** - Como funcionário da construtora, gostaria de selecionar itens do cardápio e realizar meu pedido de refeição.
 - **[RF004]** - Como funcionário da construtora, gostaria que o sistema enviasse feedbacks em tempo real sobre a refeição (Ex: Pedido recebido; Pedido enviado...).
 - **[RF005]** - Como funcionário da construtora, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante.
 - **[RF006]** - Como funcionário da construtora, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
