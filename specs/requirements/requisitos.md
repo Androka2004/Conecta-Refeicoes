@@ -211,7 +211,7 @@ Os requisitos não-funcionais são descritos a seguir.
 
 ## Interoperabilidade
 
-- **[RNF200]** - O sistema deverá exportar relatórios no formato CSV e XLSX.
+- **[RNF200]** - O sistema deverá exportar relatórios no formato CSV, XLSX e em PDF.
 
 ## Manutenibilidade
 
