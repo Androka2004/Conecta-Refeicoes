@@ -89,10 +89,11 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 
 ### **Módulo Geral**
-- **[RF001]** - Como usuário do sistema, gostaria de fazer o login por meio de matrícula ou e-mail e senha.
-- **[RF010]** - Como usuário do sistema eu tenho que conseguir definir o tamanho da minha fonte no sistema
-- **[RF016]** - Eu como usuário do sistema gostaria de redefinir minha senha.
-- **[RF018]** - Como usuário do sistema gostaria que tivesse uma opção "Lembrar de mim" quando logasse no aplicativo
+- **[RF401]** - Como usuário do sistema, gostaria de fazer o login por meio de matrícula ou e-mail e senha.
+- **[RF410]** - Como usuário do sistema eu tenho que conseguir definir o tamanho da minha fonte no sistema
+- **[RF416]** - Eu como usuário do sistema gostaria de redefinir minha senha.
+- **[RF418]** - Como usuário do sistema gostaria que tivesse uma opção "Lembrar de mim" quando logasse no aplicativo
+- **[RF400]** - Como usuário do sistema gostaria que eu pudesse alterar meu próprio usuário, informações como: telefone, e-mail, e-mail de recuperação e etc.
 
 ### **Módulo Refeição** 
 - **[RF002]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
@@ -120,7 +121,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia, para cada obra.
 <!-- - **[RF108]** - Como colaborador do restaurante deveria ter a opção de importar os pedidos das empresas parceiras. -->
 <!-- - **[RF109]** - Como colaborador do restaurante devo visualizar os pratos mais pedidos, para me previnir e comprar mais ingredientes para esse prato. -->
-- **[RF110]** - Como colaborador do restaurante, se o funcionário da obra for comer no restaurante presencialmente, deve ser possível autenticar ele por meio de uma autenticação de 2 fatores, afim de não acontecer fraude. 
+- ~~**[RF110]** - Como colaborador do restaurante, se o funcionário da obra for comer no restaurante presencialmente, deve ser possível autenticar ele por meio de uma autenticação de 2 fatores, afim de não acontecer fraude. ~~
 - ~~**[RF111]** - Como colaborador do restaurante, gostaria de alterar o prazo limite para a solicitação de uma refeição daquele turno depois de estabelecido.~~
 - **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não sera ofertada refeições naquele dia.
 - **[RF113]** - Como colaborador do restaurante, após importar os pedidos da obra gostaria de imprimir para a cozinha. 
@@ -128,6 +129,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF115]** - Como colaborador do restaurante posso definir um cardápio para ser disponibilizado em certo dia
 - **[RF116]** - Como colaborador do restaurante posso visualizar o prazo limite estabelecido pelo administrador do sistema
 - **[RF117]** - Como colaborador do restaurante posso solicitar a edição do prazo limite.
+- **[RF118]** - Como colaborador do restaurante quero definir o ultimo cardápio utilizado como o cardápio do dia 
 
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.
@@ -180,10 +182,11 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF050]** - O sistema deve ser desenvolvido de forma que os dados dos clientes sejam protegidos e não sejam acessíveis por terceiros.
 - **[RNF051]** - O sistema deve atender aos requisitos de privacidade da LGPD (Lei Geral de Proteção de Dados).
 - **[RNF052]** - O sistema deverá garantir a integridade dos dados, evitando discrepâncias entre a quantidade de refeições pedidas e as refeições registradas e entregues.
-- **[RNF053]** - Deverão existir procedimentos de backup e recuperação de dados para prevenir a perda de informações em caso de desastres.
+- **[RNF053]** - Deverão existir procedimentos de backup e recuperação de dados para prevenir a perda de informações em caso de desastres, um backup será feito a cada mês.
 - **[RNF054]** - O acesso às funcionalidades e dados do sistema deverá ser baseado em perfis de usuário, garantindo que cada usuário só possa acessar as informações e realizar as ações para as quais tem permissão.
 - **[RNF055]** - O sistema deverá registrar logs de atividades importantes, como pedidos realizados, modificações e acessos, para fins de auditoria e rastreabilidade.
-- **[RNF056]** - O sistema deverá criptografar dados sensivéis do usuario do sistema, como sua matricula e senha. De modo de ser impossivel de recuperar os dados originais do criptografamento
+- **[RNF056]** - O sistema deverá criptografar dados sensivéis do usuario do sistema, como sua matricula e senha. De modo de ser impossivel de recuperar os dados originais do criptografamento.
+- **[RNF057]** - O sistema quando receber uma requisição de modificação de senha, o link será enviado por e-mail e expirará em uma hora
 
 
 
@@ -205,6 +208,7 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF108]** - Após a ação do **[RF213]**, todos os colaboradores da obra que não confirmaram o pedido será enviado uma notificação pedindo que confirmem o recebimento do pedido 
 - **[RNF109]** - Quando o gestor confirmar e solicitar a refeição, os colaboradores da obra não podem mais adicionar ou editar pedidos
 - **[RNF110]** - Quando chegar o prazo limite estabelecido pelo restaurante, o sistema deve automaticamente confirmar e solicitar as refeições de obras associadas.
+- **[RNF111]** - O sistema quando for notificar por e-mail deve seguir um padrão, com a logo do Conecta Refeições, assuntos predefinidos e claros, e o texto objetivo e padronizado.
 
 ## Suportabilidade
 
