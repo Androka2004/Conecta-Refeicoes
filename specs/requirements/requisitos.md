@@ -27,6 +27,7 @@
   - [Definições, Acrônimos e Abreviações](#definições-acrônimos-e-abreviações)
 - [Usuários identificados](#usuários identificados)
 - [Requisitos funcionais](#requisitos-funcionais)
+- [Regras e Restrições]()
 - [Requisitos não-funcionais](#requisitos-não-funcionais)
   - [Disponibilidade](#disponibilidade)
   - [Privacidade e segurança](#privacidade-e-segurança)
@@ -80,20 +81,21 @@ Os seguintes usuários foram identificados para o sistema:
 
 Os requisitos foram classificados em 5 módulos descritos a seguir:
 
-- Módulo Geral
-- Módulo Refeição  
-- Módulo Restaurante  
-- Módulo Gestão  
-- Módulo Administrador  
+- Módulo Geral - **[RF400 - 499]**
+- Módulo Refeição  - **[RF000 - RF099]**
+- Módulo Restaurante  - **[RF100 - RF199]**
+- Módulo Gestão  - **[RF200 - RF299]**
+- Módulo Administrador  - **[RF300 - RF399]**
 
 
 
 ### **Módulo Geral**
+- **[RF400]** - Como usuário do sistema gostaria que eu pudesse alterar meu próprio usuário, informações como: telefone, e-mail, e-mail de recuperação e etc.
 - **[RF401]** - Como usuário do sistema, gostaria de fazer o login por meio de matrícula ou e-mail e senha.
 - **[RF410]** - Como usuário do sistema eu tenho que conseguir definir o tamanho da minha fonte no sistema
 - **[RF416]** - Eu como usuário do sistema gostaria de redefinir minha senha.
 - **[RF418]** - Como usuário do sistema gostaria que tivesse uma opção "Lembrar de mim" quando logasse no aplicativo
-- **[RF400]** - Como usuário do sistema gostaria que eu pudesse alterar meu próprio usuário, informações como: telefone, e-mail, e-mail de recuperação e etc.
+
 
 ### **Módulo Refeição** 
 - **[RF002]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
@@ -111,12 +113,11 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF019]** - Como funcionário da construtora, desejo poder escolher se vou comer na obra ou no restaurante. 
 
 ### **Módulo Restaurante** 
-- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardápio diariamente, para que os funcionários das obras parceiras consigam visualizar.  
+- **[RF100]** - Como colaborador do restaurante, gostaria de emitir o cardápio diariamente, para que os funcionários das obras parceiras consigam visualizar se eu colaborador do restaurante não fizer o sistema se encarrega de usar o ultimo cardápio utilizado.  
 - **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
-- **[RF102]** - Como colaborador do restaurante gostaria de alterar o cardápio em tempo real, em casos de faltar algum ingrediente. (Pulei por enquanto)
 - ~~**[RF103]** - Como colaborador do restaurante, gostaria de estabelecer um horário de prazo limite para alteração de pedidos, se não estabelecer será estabelecido automaticamente por meio do sistema. ~~
 - **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra quando visitam o restaurante, para que tanto a construtora como o restaurante possam ter um controle preciso.
-- **[RF105]** - Como colaborador do restaurante, desejo gerar relatórios de pedidos (diários e mensais) que apresentem métricas de desempenho e popularidade, com a possibilidade de aplicar filtros e exportar os resultados em PDF ou planilha. <!-- Meio estranho -->
+- **[RF105]** - Como colaborador do restaurante, desejo listar relatórios de pedidos (diários e mensais) que apresentem métricas de desempenho e popularidade, com a possibilidade de aplicar filtros e exportar os resultados em PDF ou planilha. 
 - ~~**[RF106]** - Como colaborador do restaurante, gostaria de negar a edição de um pedido de um colaborador, em eventuais incidentes.~~
 - **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia, para cada obra.
 <!-- - **[RF108]** - Como colaborador do restaurante deveria ter a opção de importar os pedidos das empresas parceiras. -->
@@ -124,8 +125,8 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - ~~**[RF110]** - Como colaborador do restaurante, se o funcionário da obra for comer no restaurante presencialmente, deve ser possível autenticar ele por meio de uma autenticação de 2 fatores, afim de não acontecer fraude. ~~
 - ~~**[RF111]** - Como colaborador do restaurante, gostaria de alterar o prazo limite para a solicitação de uma refeição daquele turno depois de estabelecido.~~
 - **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não será ofertada refeições naquele dia.
-- **[RF113]** - Como colaborador do restaurante, após importar os pedidos da obra gostaria de imprimir para a cozinha. 
-- **[RF114]** - Como colaborador do restaurante, eu posso manter os cardápios do estabelecimento. Para montar um novo cardápio, o sistema deve permitir que eu selecione itens do catálogo mestre e os associe a uma categoria específica para aquele contexto. A funcionalidade deve me permitir definir um limite de quantos itens podem ser pedidos por categoria, sendo que o sistema aplicará o valor padrão de 1 (um) caso nenhum limite seja especificado. Adicionalmente, o sistema deve validar e impedir que a mesma categoria seja adicionada de forma duplicada dentro do mesmo cardápio.
+- **[RF113]** - Como colaborador do restaurante, após os pedidos serem enviados da obra gostaria de imprimir para a cozinha. 
+- **[RF114]** - Como colaborador do restaurante, eu posso manter os cardápios do estabelecimento. Para montar um novo cardápio, o sistema deve permitir que eu selecione itens do catálogo mestre e os associe a uma categoria específica para aquele contexto. A funcionalidade deve me permitir definir um limite de quantos itens podem ser pedidos por categoria, sendo que o sistema aplicará o valor padrão de 1 (um) caso nenhum limite seja especificado. 
 - **[RF115]** - Como colaborador do restaurante posso definir um cardápio para ser disponibilizado em certo dia
 - **[RF116]** - Como colaborador do restaurante posso visualizar o prazo limite estabelecido pelo administrador do sistema
 - **[RF117]** - Como colaborador do restaurante posso solicitar a edição do prazo limite para o administrador do sistema, e quero ser notificado sobre a sua resposta.
@@ -143,6 +144,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF207]** - Eu como o gestor da obra desejo poder definir os horários de refeição da obra
 ### **Módulo Administrativo** 
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
+- **[RF301]** - Eu como administrador do sistema desejo manter Obras. 
 - **[RF304]** - Eu como administrador do sistema desejo registrar que uma ou mais obras não terão fornecimento de refeição naquele dia
 - **[RF305]** - Eu como administrador do sistema desejo alterar o restaurante fornecedor de uma obra, a mudança só começará a valer no próximo dia, eu posso agendar essa alteração.
 - **[RF306]** - Eu como administrador do sistema desejo manter os usuários do sistema
@@ -151,7 +153,20 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF310]** - Eu como administrador do sistema posso visualizar todos os relatórios gerados do sistema
 - **[RF311]** - Eu como administrador do sistema eu posso manter os prazos limites de cada restaurante
 - **[RF312]** - Eu como administrador do sistema quero receber notificações de solicitações feitas pelo Gestor e pelo Colaborador do restaurante
-- **[RF313]** - Como administrador eu devo poder negar ou aceitar as solicitações de prazo limite, quero adicionar também uma justificativa quando eu for negar a solictação
+- **[RF313]** - Como administrador eu devo poder negar ou aceitar as solicitações de prazo limite, quero adicionar também uma justificativa quando eu for negar a solicitação.
+
+# Regras e Restrições
+
+As regras são descritas como [RR000  - RR999]
+
+- **[RR100]** - O cardápio deve ser disponibilizado diariamente
+- **[RR101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido e Devolvido.
+- **[RR102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
+- **[RR103]** - Na criação do cardápio quando o colaborador do restaurante não definir um numero de pedidos por categoria o sistema impõe como padrão um item.
+- **[RR104]** - Na criação do cardápio não pode haver categorias com nomes repetidos
+- **[RR105]** - Na funcionalidade de Definir um cardápio Futuro descrito no requisito [RF115], o colaborador do restaurante deve preencher os seguintes dados de forma obrigatória: Data , Horário que vai ser disponibilizado, e um cardápio já persistido.
+- **[RR106]** - Na solicitação de edição de prazo limite são obrigatórios esses campos: Novo prazo limite, Obras que tem que estar persistidas, 
+- **[RR107]** - As impressões dos pedidos devem ser padronizadas, contento apenas os Nomes dos itens do catálogo mestre  
 
 
 
