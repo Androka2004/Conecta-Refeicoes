@@ -144,16 +144,17 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF207]** - Eu como o gestor da obra desejo poder definir os horários de refeição da obra
 ### **Módulo Administrativo** 
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
-- **[RF301]** - Eu como administrador do sistema desejo manter Obras. 
+- **[RF301]** - Eu como administrador do sistema desejo manter Obras. Cada obra deve possuir nome, endereço e gestor responsável. 
 - **[RF304]** - Eu como administrador do sistema desejo registrar que uma ou mais obras não terão fornecimento de refeição naquele dia
 - **[RF305]** - Eu como administrador do sistema desejo alterar o restaurante fornecedor de uma obra, a mudança só começará a valer no próximo dia, eu posso agendar essa alteração.
 - **[RF306]** - Eu como administrador do sistema desejo manter os usuários do sistema
  <!-- %% **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra %% -->
-- **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras.
+- **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras. Cada Restaurante deve ter registrado nome, CNPJ, endereço, telefone, email, dados bancários, além de marcar se o restaurante oferece café, almoço e/ou jantar.
 - **[RF310]** - Eu como administrador do sistema posso visualizar todos os relatórios gerados do sistema
 - **[RF311]** - Eu como administrador do sistema eu posso manter os prazos limites de cada restaurante
-- **[RF312]** - Eu como administrador do sistema quero receber notificações de solicitações feitas pelo Gestor e pelo Colaborador do restaurante
-- **[RF313]** - Como administrador eu devo poder negar ou aceitar as solicitações de prazo limite, quero adicionar também uma justificativa quando eu for negar a solicitação.
+- **[RF312]** - Eu como administrador do sistema quero visualizar solicitações feitas pelo Gestor e pelo Colaborador do restaurante
+- **[RF313]** - Eu como administrador do sistema quero responder as solicitações feitas pelo Gestor e pelo Colaborador do restaurante
+- **[RF314]** - Como administrador eu devo poder negar ou aceitar as solicitações de prazo limite, quero adicionar também uma justificativa quando eu for negar a solicitação.
 
 # Regras e Restrições
 
