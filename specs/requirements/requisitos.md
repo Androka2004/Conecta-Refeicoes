@@ -105,7 +105,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF005]** - Como funcionário da construtora, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante
 - **[RF006]** - Como funcionário da construtora, gostaria de acompanhar o status do meu pedido. 
 - **[RF007]** - Como funcionário da construtora, gostaria que existisse a possibilidade de escolher receber notificações relacionado ao status do pedido em tempo real(Ex: Pedido recebido; Pedido enviado...).
-- **[RF008]** - Como funcionário da construtora, desejo confirmar o recebimento do meu alimento no aplicativo.
+- **[RF008]** - Como funcionário da construtora, desejo visualizar os meus pedidos atuais no aplicativo.
 - **[RF009]** - Como funcionário da construtora, queria ter a possibilidade de reportar algum problema relacionado ao meu pedido realizado.   
 - **[RF010]** - Como funcionário da construtora, desejo agendar o café da manhã no dia anterior.
 - **[RF011]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos.
