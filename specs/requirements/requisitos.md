@@ -171,8 +171,9 @@ As regras são descritas como [RR000  - RR999]
 - **[RR110]** - Em relação a Tipo de Item o sistema já teria alguns padrões que não podem ser excluídos pelo colaborador do restaurante, seriam esses tipos: Bebidas, Verdura, Sobremesas, Carne, Guarnição
 - **[RR111]** - O cardápio disponibilizado pelo sistema vai ser sempre qual o colaborador do restaurante definiu como padrão, exceto se o colaborador do restaurante não definiu nenhum cardápio como padrão, então o sistema vai usar o ultimo cardápio disponibilizado naquele horário de refeição
 - **[RR112]** - O sistema deve trocar automaticamente o cardápio de uma determinada obra quando o horário da refeição daquela obra já tiver passado.
-- **[RR113]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" ou "Agendar Café da Manhã" após o  realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
+- **[RR113]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" ou após o  realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
 - **[RR114]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
+- **[RR115]** - O acesso a "Realizar pedido" ou "Agendar Café da Manhã" só é permitido se o ator não tiver nenhum pedido atual.
   
 
 
