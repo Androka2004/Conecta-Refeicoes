@@ -120,17 +120,16 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia, para cada obra.
 - **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não será ofertada refeições naquele dia.
 - **[RF113]** - Como colaborador do restaurante, após os pedidos serem enviados da obra gostaria de imprimir para a cozinha. 
-- **[RF114]** - Como colaborador do restaurante, eu posso manter os cardápios do estabelecimento. Para montar um novo cardápio, o sistema deve permitir que eu selecione itens do catálogo mestre e os associe a uma categoria específica para aquele contexto. A funcionalidade deve me permitir definir um limite de quantos itens podem ser pedidos por categoria, sendo que o sistema aplicará o valor padrão de 1 (um) caso nenhum limite seja especificado. 
+- **[RF114]** - Como colaborador do restaurante, eu posso manter os cardápios do estabelecimento. Para montar um novo cardápio, o sistema deve permitir que eu selecione itens do catálogo mestre ou Pratos feitos e os associe a uma categoria específica para aquele contexto. A funcionalidade deve me permitir definir um limite de quantos itens podem ser pedidos por categoria, sendo que o sistema aplicará o valor padrão de 1 (um) caso nenhum limite seja especificado. 
 - **[RF115]** - Como colaborador do restaurante posso definir um cardápio para ser disponibilizado em certo dia
 - **[RF116]** - Como colaborador do restaurante posso visualizar o prazo limite estabelecido pelo administrador do sistema
 - **[RF117]** - Como colaborador do restaurante posso solicitar a edição do prazo limite para o administrador do sistema, e quero ser notificado sobre a sua resposta.
-- **[RF118]** - Como colaborador do restaurante quero definir o ultimo cardápio utilizado como o cardápio do dia
 - **[RF119]** - Eu como colaborador do restaurante desejo manter categorias do cardápio, como Proteína, Carboidrato, Prato, Bebidas. Isso servirá para organizar melhor os itens do cardápio, o sistema também já geraria algumas por padrão. Eu poderia associar as categorias com alguns Tipos de Itens para criar uma restrição
-- **[RF120]** - Eu como colaborador do restaurante desejo manter itens que formariam basicamente um catálogo de todos os itens que o restaurante pode fornecer. Eles teriam um ou mais tipos associado a eles, como por exemplo: Bebida, Tempero, Salada
-- **[RF122]** - Eu como colaborador do restaurante desejo manter Pratos Feitos que consistem basicamente em um conjunto de itens do catalogo mestre
+- **[RF120]** - Eu como colaborador do restaurante desejo manter itens que formariam basicamente um catálogo de todos os itens que o restaurante pode fornecer. Eles teriam nenhum ou vários tipos associado a eles, como por exemplo: Bebida, Tempero, Salada
+- **[RF122]** - Eu como colaborador do restaurante desejo manter Prato Feito que consistem basicamente em um conjunto de itens do catalogo mestre
 - **[RF123]** - Eu como colaborador do restaurante desejo poder disponibilizar cardápios distintos para os diferentes turnos de refeição
 - **[RF124]** - Eu como colaborador do restaurante desejo Manter Tipo de Item
-- **[RF125]** - Eu como colaborador do restaurante desejo Definir um cardápio como padrão para cada turno de refeição, dessa forma o sistema quando eu não emitir um cardápio ele vai emitir esse padrão
+- **[RF125]** - Eu como colaborador do restaurante desejo Definir cardápio padrão para cada turno de refeição, dessa forma o sistema quando eu não emitir um cardápio ele vai emitir esse padrão
 
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.
@@ -162,20 +161,20 @@ As regras são descritas como [RR000  - RR999]
 - **[RR101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
 - **[RR102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
 - **[RR103]** - Na criação do cardápio quando o colaborador do restaurante não definir um numero de pedidos por categoria o sistema impõe como padrão um item.
-- **[RR104]** - Na criação do cardápio não pode haver categorias com nomes repetidos
 - **[RR105]** - Na funcionalidade de Definir um cardápio Futuro descrito no requisito [RF115], o colaborador do restaurante deve preencher os seguintes dados de forma obrigatória: Data , Horário que vai ser disponibilizado, e um cardápio já persistido.
 - **[RR106]** - Na solicitação de edição de prazo limite são obrigatórios esses campos: Novo prazo limite, Obras que tem que estar persistidas, 
 - **[RR107]** - As impressões dos pedidos devem ser padronizadas, contento apenas os Nomes dos itens do catálogo mestre e a quantidade.
 - **[RR108]** - O restaurante pode manter até 3 cardápio ativos, cada um desses representando um horário de Refeição(Café da manhã, Almoço, Janta)
 - **[RR109]** - As categorias geradas por padrão pelo sistema são: Prato Feito que pode comportar apenas Pratos Feitos e Bebidas que podem comportar somente itens do tipo Bebidas
 - **[RR110]** - Em relação a Tipo de Item o sistema já teria alguns padrões que não podem ser excluídos pelo colaborador do restaurante, seriam esses tipos: Bebidas, Verdura, Sobremesas, Carne, Guarnição
-- **[RR111]** - O cardápio disponibilizado pelo sistema vai ser sempre qual o colaborador do restaurante definiu como padrão, exceto se o colaborador do restaurante não definiu nenhum cardápio como padrão, então o sistema vai usar o ultimo cardápio disponibilizado naquele horário de refeição
+- **[RR111]** -O cardápio disponibilizado pelo sistema vai seguir essa prioridade 1.Cardápios Agendados, 2.Cardápios Definidos Como Padrão, 3.Ultimo cardápio utilizado daquele dia
 - **[RR112]** - O sistema deve trocar automaticamente o cardápio de uma determinada obra quando o horário da refeição daquela obra já tiver passado.
 - **[RR113]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" após o  realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
 - **[RR114]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
-  
-
-
+- **[RR115]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
+- **[RR116]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
+- **[RR117]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
+- **[RR118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
 
 
 
