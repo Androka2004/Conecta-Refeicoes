@@ -130,13 +130,15 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF123]** - Eu como colaborador do restaurante desejo poder disponibilizar cardápios distintos para os diferentes turnos de refeição
 - **[RF124]** - Eu como colaborador do restaurante desejo Manter Tipo de Item
 - **[RF125]** - Eu como colaborador do restaurante desejo Definir cardápio padrão para cada turno de refeição, dessa forma o sistema quando eu não emitir um cardápio ele vai emitir esse padrão
+- **[RF126]** - Eu como colaborador do restaurante desejo consultar os pedidos feitos pelos funcionários da Construtora
+- **[RF127]** - Eu como colaborador do restaurante desejo consultar as solicitações que seriam os pedidos agrupados por Obra
 
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.
 - **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
 - **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas Excel.
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
-- **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra e solicitar as refeições para o restaurante antes do prazo limite. 
+- **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
 - **[RF206]** - Eu como gestor da obra desejo avaliar os dados enviados dos colaboradores da obra com o do colaborador do restaurante, para analisar se houver discrepâncias.
 - **[RF207]** - Eu como o gestor da obra desejo poder definir os horários de refeição da obra
 ### **Módulo Administrativo** 
@@ -173,10 +175,12 @@ As regras são descritas como [RR000  - RR999]
 - **[RR112]** - O sistema deve trocar automaticamente o cardápio de uma determinada obra quando o horário da refeição daquela obra já tiver passado.
 - **[RR113]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
 - **[RR114]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
-- **[RR115]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
-- **[RR116]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
 - **[RR117]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
--
+- **[RR115]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
+- **[RR116]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
+- **[RR119]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
+- **[RR118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
+- **[RR120]** - O Tipo de item só pode ser excluído se não tiverem nenhum item ou categoria associado à ele
   
 
 
