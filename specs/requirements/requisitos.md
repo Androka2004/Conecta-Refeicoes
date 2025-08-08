@@ -157,6 +157,8 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 As regras são descritas como [RR000  - RR999]
 
+- **[RR001]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" ou após o  realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
+- **[RR002]** - O acesso a "Realizar pedido" ou "Agendar Café da Manhã" só é permitido se o ator não tiver nenhum pedido atual.
 - **[RR100]** - Ao menos um cardápio deve estar disponível diariamente
 - **[RR101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
 - **[RR102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
@@ -169,13 +171,12 @@ As regras são descritas como [RR000  - RR999]
 - **[RR110]** - Em relação a Tipo de Item o sistema já teria alguns padrões que não podem ser excluídos pelo colaborador do restaurante, seriam esses tipos: Bebidas, Verdura, Sobremesas, Carne, Guarnição
 - **[RR111]** -O cardápio disponibilizado pelo sistema vai seguir essa prioridade 1.Cardápios Agendados, 2.Cardápios Definidos Como Padrão, 3.Ultimo cardápio utilizado daquele dia
 - **[RR112]** - O sistema deve trocar automaticamente o cardápio de uma determinada obra quando o horário da refeição daquela obra já tiver passado.
-- **[RR113]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" ou após o  realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
-- **[RR114]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
-- **[RR115]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
-- **[RR116]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
-- **[RR117]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
-- **[RR118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
-- **[RR119]** - O acesso a "Realizar pedido" ou "Agendar Café da Manhã" só é permitido se o ator não tiver nenhum pedido atual.
+- **[RR113]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
+- **[RR114]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
+- **[RR115]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
+- **[RR116]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
+- **[RR117]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
+-
   
 
 
