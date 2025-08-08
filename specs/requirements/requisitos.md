@@ -98,19 +98,19 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 
 ### **Módulo Refeição** 
-- **[RF002]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
-- **[RF003]** - Como funcionário da construtora, gostaria de selecionar itens do cardápio e realizar meu pedido de refeição.
-- **[RF004]** - Como funcionário da construtora, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido. 
+- **[RF001]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
+- **[RF002]** - Como funcionário da construtora, gostaria de selecionar itens do cardápio e realizar meu pedido de refeição.
+- **[RF003]** - Como funcionário da construtora, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido.
+- **[RF004]** - Como funcionário da construtora, desejo visualizar os meus pedidos atuais no aplicativo.
 - **[RF005]** - Como funcionário da construtora, desejo cancelar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido.
 - **[RF006]** - Como funcionário da construtora, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante
-- **[RF007]** - Como funcionário da construtora, gostaria de visualizar o meu pedido atual.
-- **[RF008]** - Como funcionário da construtora, gostaria de acompanhar o status do meu pedido. 
-- **[RF011]** - Como funcionário da construtora, gostaria que existisse a possibilidade de escolher receber notificações relacionado ao status do pedido em tempo real(Ex: Pedido recebido; Pedido enviado...).
-- **[RF012]** - Como funcionário da construtora, desejo confirmar o recebimento do meu alimento no aplicativo.
-- **[RF014]** - Como funcionário da construtora, queria ter a possibilidade de reportar algum problema relacionado ao meu pedido realizado.   
-- **[RF015]** - Como funcionário da construtora, desejo agendar o café da manhã no dia anterior.
-- **[RF017]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos.
-- **[RF019]** - Como funcionário da construtora, desejo poder escolher se vou comer na obra ou no restaurante.
+- **[RF007]** - Como funcionário da construtora, gostaria de acompanhar o status do meu pedido. 
+- **[RF008]** - Como funcionário da construtora, gostaria que existisse a possibilidade de escolher receber notificações relacionado ao status do pedido em tempo real(Ex: Pedido recebido; Pedido enviado...).
+- **[RF009]** - Como funcionário da construtora, queria ter a possibilidade de reportar algum erro ou problema relacionado ao meu pedido realizado.   
+- **[RF010]** - Como funcionário da construtora, desejo agendar o café da manhã no dia anterior.
+- **[RF011]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos.
+- **[RF012]** - Como funcionário da construtora, desejo poder escolher se vou comer na obra ou no restaurante.
+
 
 ### **Módulo Restaurante** 
 - **[RF100]** - Como colaborador do restaurante, gostaria de disponibilizar o cardápio, para que os funcionários das obras parceiras consigam visualizar se eu colaborador do restaurante não disponibilizar o sistema se encarrega emitir um cardápio.  
@@ -144,19 +144,21 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF301]** - Eu como administrador do sistema desejo manter Obras. Cada obra deve possuir nome, endereço, status da obra e gestor responsável. 
 - **[RF304]** - Eu como administrador do sistema desejo registrar que uma ou mais obras não terão fornecimento de refeição naquele dia
 - **[RF305]** - Eu como administrador do sistema desejo alterar o restaurante fornecedor de uma obra, a mudança só começará a valer no próximo dia, eu posso agendar essa alteração.
-- **[RF306]** - Eu como administrador do sistema desejo manter os usuários do sistema
+- **[RF306]** - Eu como administrador do sistema desejo manter os funcionários da construtora
  <!-- %% **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra %% -->
 - **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras. Cada Restaurante deve ter registrado nome, CNPJ, endereço, telefone, email, valor unitário da refeição, dados bancários, além de marcar se o restaurante oferece café, almoço e/ou jantar.
 - **[RF310]** - Eu como administrador do sistema posso visualizar todos os relatórios gerados do sistema
-- **[RF311]** - Eu como administrador do sistema eu posso manter os prazos limites de cada restaurante
 - **[RF312]** - Eu como administrador do sistema quero visualizar solicitações feitas pelo Gestor e pelo Colaborador do restaurante
 - **[RF313]** - Eu como administrador do sistema quero responder as solicitações feitas pelo Gestor e pelo Colaborador do restaurante
-- **[RF314]** - Como administrador eu devo poder negar ou aceitar as solicitações de prazo limite, quero adicionar também uma justificativa quando eu for negar a solicitação.
+- **[RF314]** - Como administrador eu devo poder negar ou aceitar as solicitações de alteração de prazo limite para envio de pedido de refeição, quero adicionar também uma justificativa quando eu for negar a solicitação.
 
 # Regras e Restrições
 
 As regras são descritas como [RR000  - RR999]
 
+- **[RR001]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" após realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
+- **[RR002]** - O acesso a "Realizar pedido" ou "Agendar Café da Manhã" só é permitido se o ator não tiver nenhum pedido atual.
+- **[RR003]** - O cancelamento ou a edição de um pedido só poderá ser realizada se for feito dentro do prazo estabelecido pelo restaurante respectivo ao pedido.
 - **[RR100]** - Ao menos um cardápio deve estar disponível diariamente
 - **[RR101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
 - **[RR102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
@@ -169,13 +171,12 @@ As regras são descritas como [RR000  - RR999]
 - **[RR110]** - Em relação a Tipo de Item o sistema já teria alguns padrões que não podem ser excluídos pelo colaborador do restaurante, seriam esses tipos: Bebidas, Verdura, Sobremesas, Carne, Guarnição
 - **[RR111]** -O cardápio disponibilizado pelo sistema vai seguir essa prioridade 1.Cardápios Agendados, 2.Cardápios Definidos Como Padrão, 3.Ultimo cardápio utilizado daquele dia
 - **[RR112]** - O sistema deve trocar automaticamente o cardápio de uma determinada obra quando o horário da refeição daquela obra já tiver passado.
-- **[RR113]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" ou após o  realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
-- **[RR114]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
-- **[RR115]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
-- **[RR116]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
-- **[RR117]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
-- **[RR118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
-- **[RR119]** - O acesso a "Realizar pedido" ou "Agendar Café da Manhã" só é permitido se o ator não tiver nenhum pedido atual.
+- **[RR113]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
+- **[RR114]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
+- **[RR115]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
+- **[RR116]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
+- **[RR117]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
+-
   
 
 
