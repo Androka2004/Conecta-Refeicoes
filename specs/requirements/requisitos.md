@@ -156,7 +156,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 As regras são descritas como [RR000  - RR999]
 
-- **[RR001]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" ou após o  realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
+- **[RR001]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" após realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
 - **[RR002]** - O acesso a "Realizar pedido" ou "Agendar Café da Manhã" só é permitido se o ator não tiver nenhum pedido atual.
 - **[RR003]** - O cancelamento ou a edição de um pedido só poderá ser realizada se for feito dentro do prazo estabelecido pelo restaurante respectivo ao pedido.
 - **[RR100]** - Ao menos um cardápio deve estar disponível diariamente
