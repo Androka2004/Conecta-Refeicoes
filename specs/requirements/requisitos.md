@@ -138,6 +138,8 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
 - **[RF206]** - Eu como gestor da obra desejo avaliar os dados enviados dos colaboradores da obra com o do colaborador do restaurante, para analisar se houver discrepâncias.
 - **[RF207]** - Eu como o gestor da obra desejo poder definir os horários de refeição da obra
+- **[RF208]** - Como gestor de obra, desejo registrar no sistema a confirmação de recebimento da refeição pelos colaboradores da obra.
+
 ### **Módulo Administrativo** 
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
 - **[RF301]** - Eu como administrador do sistema desejo manter Obras. Cada obra deve possuir nome, endereço, status da obra e gestor responsável. 
