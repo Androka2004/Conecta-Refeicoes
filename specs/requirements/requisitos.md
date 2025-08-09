@@ -109,7 +109,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF009]** - Como funcionário da construtora, queria ter a possibilidade de reportar algum erro ou problema relacionado ao meu pedido realizado.   
 - **[RF010]** - Como funcionário da construtora, desejo agendar o café da manhã no dia anterior.
 - **[RF011]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos.
-- **[RF012]** - Como funcionário da construtora, desejo poder escolher se vou comer na obra ou no restaurante.
+- **[RF012]** - Como funcionário da construtora, desejo ter a possibilidade de optar comer presencialmente no restaurante.
 
 
 ### **Módulo Restaurante** 
