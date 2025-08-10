@@ -140,7 +140,6 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
 - **[RF206]** - Eu como gestor da obra desejo avaliar os dados enviados dos colaboradores da obra com o do colaborador do restaurante, para analisar se houver discrepâncias.
-- **[RF207]** - Eu como o gestor da obra desejo poder definir os horários de refeição da obra
 ### **Módulo Administrativo** 
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
 - **[RF301]** - Eu como administrador do sistema desejo manter Obras. Cada obra deve possuir nome, endereço, status da obra e gestor responsável. 
@@ -181,6 +180,7 @@ As regras são descritas como [RR000  - RR999]
 - **[RR119]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
 - **[RR118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
 - **[RR120]** - O Tipo de item só pode ser excluído se não tiverem nenhum item ou categoria associado à ele
+- **[RR300]** - Cada obra atribuída a um restaurante pode ter no máximo 3 prazos limites de pedido
   
 
 
