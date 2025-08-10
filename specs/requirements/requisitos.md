@@ -146,7 +146,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF305]** - Eu como administrador do sistema desejo alterar o restaurante fornecedor de uma obra, a mudança só começará a valer no próximo dia, eu posso agendar essa alteração.
 - **[RF306]** - Eu como administrador do sistema desejo manter os funcionários da construtora
  <!-- %% **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra %% -->
-- **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras. Cada Restaurante deve ter registrado nome, CNPJ, endereço, telefone, email, valor unitário da refeição, dados bancários, além de marcar se o restaurante oferece café, almoço e/ou jantar.
+- **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras. Cada Restaurante deve ter registrado nome, CNPJ, endereço, telefone, email, valor unitário da refeição, dados bancários.
 - **[RF310]** - Eu como administrador do sistema posso visualizar todos os relatórios gerados do sistema
 - **[RF312]** - Eu como administrador do sistema quero visualizar solicitações feitas pelo Gestor e pelo Colaborador do restaurante
 - **[RF313]** - Eu como administrador do sistema quero responder as solicitações feitas pelo Gestor e pelo Colaborador do restaurante
