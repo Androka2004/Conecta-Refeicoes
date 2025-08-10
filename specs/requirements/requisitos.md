@@ -99,17 +99,14 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 ### **Módulo Refeição** 
 - **[RF001]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
-- **[RF002]** - Como funcionário da construtora, gostaria de selecionar itens do cardápio e realizar meu pedido de refeição.
+- **[RF002]** - Como funcionário da construtora, gostaria de manter meu(s) pedido(s) de refeição.
 - **[RF003]** - Como funcionário da construtora, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido.
-- **[RF004]** - Como funcionário da construtora, desejo visualizar os meus pedidos atuais no aplicativo.
-- **[RF005]** - Como funcionário da construtora, desejo cancelar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido.
-- **[RF006]** - Como funcionário da construtora, gostaria de poder editar meu pedido após a solicitação, desde que seja antes do prazo limite estabelecido pelo restaurante
-- **[RF007]** - Como funcionário da construtora, gostaria de acompanhar o status do meu pedido. 
-- **[RF008]** - Como funcionário da construtora, gostaria que existisse a possibilidade de escolher receber notificações relacionado ao status do pedido em tempo real(Ex: Pedido recebido; Pedido enviado...).
-- **[RF009]** - Como funcionário da construtora, queria ter a possibilidade de reportar algum erro ou problema relacionado ao meu pedido realizado.   
-- **[RF010]** - Como funcionário da construtora, desejo agendar o café da manhã no dia anterior.
-- **[RF011]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos.
-- **[RF012]** - Como funcionário da construtora, desejo poder escolher se vou comer na obra ou no restaurante.
+- **[RF004]** - Como funcionário da construtora, gostaria de acompanhar o status do meu pedido. 
+- **[RF005]** - Como funcionário da construtora, gostaria que existisse a possibilidade de escolher receber notificações relacionado ao status do pedido em tempo real(Ex: Pedido recebido; Pedido enviado...).
+- **[RF006]** - Como funcionário da construtora, queria ter a possibilidade de reportar algum erro ou problema relacionado ao meu pedido realizado.   
+- **[RF007]** - Como funcionário da construtora, desejo agendar o café da manhã no dia anterior.
+- **[RF008]** - Como funcionário da construtora, gostaria de visualizar meu histórico pessoal de pedidos.
+- **[RF009]** - Como funcionário da construtora, desejo ter a possibilidade de optar comer presencialmente no restaurante.
 
 
 ### **Módulo Restaurante** 
@@ -140,6 +137,8 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
 - **[RF206]** - Eu como gestor da obra desejo avaliar os dados enviados dos colaboradores da obra com o do colaborador do restaurante, para analisar se houver discrepâncias.
+- **[RF208]** - Como gestor de obra, desejo registrar no sistema a confirmação de recebimento da refeição pelos colaboradores da obra.
+
 ### **Módulo Administrativo** 
 - **[RF300]** - Eu como administrador do sistema gostaria de definir permissões para usuários comuns
 - **[RF301]** - Eu como administrador do sistema desejo manter Obras. Cada obra deve possuir nome, endereço, status da obra e gestor responsável. 
@@ -157,8 +156,8 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 As regras são descritas como [RR000  - RR999]
 
-- **[RR001]** - O funcionário da construtora só conseguirá ter acesso a "Meu Pedido" após realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
-- **[RR002]** - O acesso a "Realizar pedido" ou "Agendar Café da Manhã" só é permitido se o ator não tiver nenhum pedido atual.
+- **[RR001]** - O funcionário da construtora só conseguirá ter acesso a "Meus Pedidos" após realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
+- **[RR002]** - O ator só pode pedir ou agendar a(s) refeição(ões) no horário predefinido no prazo limite.
 - **[RR003]** - O cancelamento ou a edição de um pedido só poderá ser realizada se for feito dentro do prazo estabelecido pelo restaurante respectivo ao pedido.
 - **[RR100]** - Ao menos um cardápio deve estar disponível diariamente
 - **[RR101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
