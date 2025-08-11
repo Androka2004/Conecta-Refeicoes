@@ -1,4 +1,4 @@
-| Caso de uso       | Listar colaboradores da obra                       |
+| Caso de uso       | UC19-Listar colaboradores da obra                       |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao gestor visualizar a lista de colaboradores vinculados à obra. |
 | Requisitos        | **[RF200]**                                        |

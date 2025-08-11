@@ -1,4 +1,4 @@
-| Caso de uso       | Visualizar relatórios de pedidos com filtros       |
+| Caso de uso       | UC47 - Visualizar relatórios de pedidos com filtros       |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao gestor consultar relatórios de pedidos aplicando filtros como período, restaurante e obra. |
 | Requisitos        | **[RF201]**                                        |

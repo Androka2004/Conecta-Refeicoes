@@ -1,4 +1,4 @@
-| Caso de uso       | Redefinir senha                                    |
+| Caso de uso       | UC40 - Redefinir senha                                    |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao usuário redefinir sua senha.           |
 | Requisitos        | **[RF416]**                                        |

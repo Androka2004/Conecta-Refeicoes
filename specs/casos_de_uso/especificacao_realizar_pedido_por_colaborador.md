@@ -1,4 +1,4 @@
-| Caso de uso       | Realizar pedido para colaborador                   |
+| Caso de uso       | UC37 - Realizar pedido para colaborador                   |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao gestor efetuar pedidos de refeições em nome de colaboradores da obra. |
 | Requisitos        | **[RF203]**                                        |

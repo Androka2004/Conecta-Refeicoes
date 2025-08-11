@@ -1,4 +1,4 @@
-| Caso de uso       | Confirmar recebimento de refeição pelos colaboradores |
+| Caso de uso       | UC07-Confirmar recebimento de refeição pelos colaboradores |
 |-------------------|-------------------------------------------------------|
 | Objetivo          | Permitir ao gestor de obra registrar no sistema a confirmação de recebimento da refeição pelos colaboradores da obra. |
 | Requisitos        | **[RF208]**                                            |

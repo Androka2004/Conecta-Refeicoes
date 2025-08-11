@@ -1,4 +1,4 @@
-| Caso de uso       | Confirmar pedidos dos colaboradores                |
+| Caso de uso       | UC06-Confirmar pedidos dos colaboradores                |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao gestor confirmar os pedidos da obra e enviá-los ao restaurante antes do prazo limite. |
 | Requisitos        | **[RF205]**                                        |

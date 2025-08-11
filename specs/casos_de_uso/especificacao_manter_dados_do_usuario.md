@@ -1,4 +1,4 @@
-| Caso de uso       | Manter dados do usuário                            |
+| Caso de uso       | UC25-Manter dados do usuário                            |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao usuário alterar informações como telefone, e-mail e e-mail de recuperação. |
 | Requisitos        | **[RF400]**                                        |

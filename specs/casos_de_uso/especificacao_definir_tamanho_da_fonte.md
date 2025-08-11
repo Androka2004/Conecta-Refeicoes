@@ -1,4 +1,4 @@
-| Caso de uso       | Definir tamanho da fonte                           |
+| Caso de uso       | UC13 - Definir tamanho da fonte                           |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao usuário ajustar o tamanho da fonte no sistema. |
 | Requisitos        | **[RF410]**                                        |

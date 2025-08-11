@@ -1,4 +1,4 @@
-| Caso de uso       | Definir horários de refeição da obra                |
+| Caso de uso       | UC11 - Definir horários de refeição da obra                |
 |-------------------|----------------------------------------------------|
 | Objetivo          | Permitir ao gestor configurar os horários de refeição para a obra. |
 | Requisitos        | **[RF207]**                                        |
