@@ -185,7 +185,8 @@ As regras são descritas como [RR000  - RR999]
 - **[RR120]** - O Tipo de item só pode ser excluído se não tiverem nenhum item ou categoria associado à ele
 - **[RR121]** - A data provida no agendamento de cardápio não pode estar no passado
 - **[RR122]** - Os três possíveis valores para horário de refeição são : Café da manhã, Almoço, Janta
-- **[RR300]** - Cada obra atribuída a um restaurante pode ter no máximo 3 prazos limites de pedido
+- **[RR123]** - Os preços dos pedidos são tabelados em 20 reais por pedido, a obra cobre o pedido da noite, visto que funcionário da construtora está fazendo hora extra
+
   
 
 
