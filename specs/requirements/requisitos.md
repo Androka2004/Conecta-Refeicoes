@@ -16,6 +16,7 @@
 | :--------: | :----: | :----------------------: | :--------------------------------------------------------------------------------------: |
 | 07/06/2025 |  1.0   |   Criação do documento   | Andrey Vasconcelos, João Pedro Rodrigues,  Lucas Emanuel Araujo, Pedro Arthur de Holanda |
 | 28/07/2025 |  1.0   | Modificação para módulos |                                   João Pedro Rodrigues                                   |
+|            |        |                          |                                                                                          |
 
 
 ---
@@ -163,7 +164,7 @@ As regras são descritas como [RR000  - RR999]
 - **[RR101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
 - **[RR102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
 - **[RR103]** - Na criação do cardápio quando o colaborador do restaurante não definir um numero de pedidos por categoria o sistema impõe como padrão um item.
-- **[RR105]** - Na funcionalidade de Definir um cardápio Futuro descrito no requisito [RF115], o colaborador do restaurante deve preencher os seguintes dados de forma obrigatória: Data , Horário que vai ser disponibilizado, e um cardápio já persistido.
+- **[RR105]** - Na funcionalidade de Agendar cardápio descrito no requisito [RF115], o colaborador do restaurante deve preencher os seguintes dados de forma obrigatória: Data , Horário que vai ser disponibilizado, e um cardápio já persistido.
 - **[RR106]** - Na solicitação de edição de prazo limite são obrigatórios esses campos: Novo prazo limite, Obras que tem que estar persistidas, 
 - **[RR107]** - As impressões dos pedidos devem ser padronizadas, contento apenas os Nomes dos itens do catálogo mestre e a quantidade.
 - **[RR108]** - O restaurante pode manter até 3 cardápio ativos, cada um desses representando um horário de Refeição(Café da manhã, Almoço, Janta)
@@ -179,6 +180,8 @@ As regras são descritas como [RR000  - RR999]
 - **[RR119]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
 - **[RR118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
 - **[RR120]** - O Tipo de item só pode ser excluído se não tiverem nenhum item ou categoria associado à ele
+- **[RR121]** - A data provida no agendamento de cardápio não pode estar no passado
+- **[RR122]** - Os três possíveis valores para horário de refeição são : Café da manhã, Almoço, Janta
 - **[RR300]** - Cada obra atribuída a um restaurante pode ter no máximo 3 prazos limites de pedido
   
 
