@@ -99,7 +99,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 
 ### **Módulo Refeição** 
-- **[RF001]** - Como funcionário da construtora, gostaria de visualizar o cardápio diário disponibilizado pelos restaurantes parceiros da obra.
+- **[RF001]** - Como funcionário da construtora, gostaria de visualizar o cardápio disponibilizado pelos restaurantes parceiros da obra.
 - **[RF002]** - Como funcionário da construtora, gostaria de manter meu(s) pedido(s) de refeição.
 - **[RF003]** - Como funcionário da construtora, gostaria de ter como adicionar alguma observação ou solicitação específica ao restaurante na hora do envio do pedido.
 - **[RF004]** - Como funcionário da construtora, gostaria de acompanhar o status do meu pedido. 
@@ -114,7 +114,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF100]** - Como colaborador do restaurante, gostaria de disponibilizar o cardápio, para que os funcionários das obras parceiras consigam visualizar se eu colaborador do restaurante não disponibilizar o sistema se encarrega emitir um cardápio.  
 - **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
 - **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra quando visitam o restaurante, para que tanto a construtora como o restaurante possam ter um controle preciso.
-- **[RF105]** - Como colaborador do restaurante, desejo listar relatórios de pedidos (diários e mensais) que apresentem métricas de desempenho e popularidade, com a possibilidade de aplicar filtros e exportar os resultados em PDF ou planilha. 
+- **[RF105]** - Como colaborador do restaurante, desejo visualizar relatórios de pedidos com a possibilidade de aplicar filtros e exportar os resultados para planilha. 
 - **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia, para cada obra.
 - **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não será ofertada refeições naquele dia.
 - **[RF113]** - Como colaborador do restaurante, após os pedidos serem enviados da obra gostaria de imprimir para a cozinha. 
@@ -133,7 +133,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.
-- **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
+- **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro. 
 - **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas Excel.
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
@@ -147,7 +147,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF305]** - Eu como administrador do sistema desejo alterar o restaurante fornecedor de uma obra, a mudança só começará a valer no próximo dia, eu posso agendar essa alteração.
 - **[RF306]** - Eu como administrador do sistema desejo manter os funcionários da construtora
  <!-- %% **[RF308]** - Eu como a administração da obra desejo poder definir os horários de refeição da obra %% -->
-- **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras. Cada Restaurante deve ter registrado nome, CNPJ, endereço, telefone, email, valor unitário da refeição, dados bancários, além de marcar se o restaurante oferece café, almoço e/ou jantar.
+- **[RF309]** - Como administrador do sistema, gostaria de manter restaurantes parceiros, atribuindo a suas respectivas obras. Cada Restaurante deve ter registrado nome, CNPJ, endereço, telefone, email, valor unitário da refeição, dados bancários.
 - **[RF310]** - Eu como administrador do sistema posso visualizar todos os relatórios gerados do sistema
 - **[RF312]** - Eu como administrador do sistema quero visualizar solicitações feitas pelo Gestor e pelo Colaborador do restaurante
 - **[RF313]** - Eu como administrador do sistema quero responder as solicitações feitas pelo Gestor e pelo Colaborador do restaurante
