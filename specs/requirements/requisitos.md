@@ -113,7 +113,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF100]** - Como colaborador do restaurante, gostaria de disponibilizar o cardápio, para que os funcionários das obras parceiras consigam visualizar se eu colaborador do restaurante não disponibilizar o sistema se encarrega emitir um cardápio.  
 - **[RF101]** - Como colaborador do restaurante, gostaria de atualizar o status de pedido (Ex: Pedido aceito, pedido enviado...).
 - **[RF104]** - Como colaborador do restaurante, gostaria de registrar as refeições consumidas pelos funcionários da obra quando visitam o restaurante, para que tanto a construtora como o restaurante possam ter um controle preciso.
-- **[RF105]** - Como colaborador do restaurante, desejo listar relatórios de pedidos (diários e mensais) que apresentem métricas de desempenho e popularidade, com a possibilidade de aplicar filtros e exportar os resultados em PDF ou planilha. 
+- **[RF105]** - Como colaborador do restaurante, desejo visualizar relatórios de pedidos com a possibilidade de aplicar filtros e exportar os resultados em PDF ou planilha. 
 - **[RF107]** - Como colaborador do restaurante gostaria de exportar para CSV os pedidos feitos em um dado dia, para cada obra.
 - **[RF112]** - Como colaborador do restaurante, em caso de alguma eventualidade, gostaria de notificar aos funcionários da obra que não será ofertada refeições naquele dia.
 - **[RF113]** - Como colaborador do restaurante, após os pedidos serem enviados da obra gostaria de imprimir para a cozinha. 
@@ -132,7 +132,7 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.
-- **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro (Temporal, restaurante especifico, obra...).
+- **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro. 
 - **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas Excel.
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
