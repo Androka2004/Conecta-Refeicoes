@@ -6,3 +6,7 @@
 | Condição de entrada | O ator acessa Exportar Dados no menu lateral                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Fluxo principal     | 1. O ator acessa Exportar Dados<br>2. O Ator se depara com dois campos obrigatórios para preencher e um botão<br>      - Data<br>	  - Obra <br>	  - Botão: Exportar<br>3. O ator clica no botão Exportar com os dados preenchidos<br>4. O sistema faz o download do CSV para maquina do ator e manda uma cópia por e-mail desse arquivo para a obra escolhida e o administrador do sistema<br>5. O sistema redireciona o ator para a pagina de Inicio e mostra uma mensagem de sucesso na operação |
 
+
+
+
+![Diagram](atividades_exportar_cvs.png)
