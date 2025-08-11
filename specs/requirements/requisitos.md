@@ -130,12 +130,15 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 - **[RF125]** - Eu como colaborador do restaurante desejo Definir cardápio padrão para cada turno de refeição, dessa forma o sistema quando eu não emitir um cardápio ele vai emitir esse padrão
 - **[RF126]** - Eu como colaborador do restaurante desejo consultar os pedidos feitos pelos funcionários da Construtora
 - **[RF127]** - Eu como colaborador do restaurante desejo consultar as solicitações que seriam os pedidos agrupados por Obra
+- **[RF126]** - Eu como colaborador do restaurante desejo consultar os pedidos feitos pelos funcionários da Construtora
+- **[RF127]** - Eu como colaborador do restaurante desejo consultar as solicitações que seriam os pedidos agrupados por Obra
 
 ### **Módulo Gestão**
 - **[RF200]** - Como gestor de obra, gostaria de listar os colaboradores da obra.
 - **[RF201]** - Como gestor de obra, gostaria de visualizar relatórios relacionados a pedidos, com a possibilidade de filtro. 
 - **[RF202]** - Como gestor de obra, gostaria de exportar relatórios de pedidos para planilhas Excel.
 - **[RF203]** - Como gestor da obra eu posso pedir o prato para um colaborador da obra, em caso que ele não possa fazer o pedido.
+- **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
 - **[RF205]** - Como gestor da obra, quero confirmar os pedidos dos colaboradores da obra fazer a solicitação das refeições para o restaurante antes do prazo limite. 
 - **[RF206]** - Eu como gestor da obra desejo avaliar os dados enviados dos colaboradores da obra com o do colaborador do restaurante, para analisar se houver discrepâncias.
 - **[RF208]** - Como gestor de obra, desejo registrar no sistema a confirmação de recebimento da refeição pelos colaboradores da obra.
