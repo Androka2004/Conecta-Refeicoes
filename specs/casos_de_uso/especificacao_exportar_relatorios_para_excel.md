@@ -1,4 +1,4 @@
-| Caso de uso         | UC16 - Exportar relatórios de pedidos para Excel                                                                                                               |
+| Caso de uso         | UC16 - Exportar relatórios de pedidos para Excel                                                                                                        |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Objetivo            | Permitir ao gestor exportar relatórios de pedidos em formato Excel.                                                                                     |
 | Requisitos          | **[RF202]**                                                                                                                                             |
