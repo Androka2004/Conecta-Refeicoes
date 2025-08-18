@@ -160,32 +160,32 @@ Os requisitos foram classificados em 5 módulos descritos a seguir:
 
 As regras são descritas como [RR000  - RR999]
 
-- **[RR001]** - O funcionário da construtora só conseguirá ter acesso a "Meus Pedidos" após realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
-- **[RR002]** - O ator só pode pedir ou agendar a(s) refeição(ões) no horário predefinido no prazo limite.
-- **[RR003]** - O cancelamento ou a edição de um pedido só poderá ser realizada se for feito dentro do prazo estabelecido pelo restaurante respectivo ao pedido.
-- **[RR100]** - Ao menos um cardápio deve estar disponível diariamente
-- **[RR101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
-- **[RR102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
-- **[RR103]** - Na criação do cardápio quando o colaborador do restaurante não definir um numero de pedidos por categoria o sistema impõe como padrão um item.
+- **[RN001]** - O funcionário da construtora só conseguirá ter acesso a "Meus Pedidos" após realizar o pedido. Dessa forma, não consegue editar, cancelar, visualizar, reportar erros e etc...
+- **[RN002]** - O ator só pode pedir ou agendar a(s) refeição(ões) no horário predefinido no prazo limite.
+- **[RN003]** - O cancelamento ou a edição de um pedido só poderá ser realizada se for feito dentro do prazo estabelecido pelo restaurante respectivo ao pedido.
+- **[RN100]** - Ao menos um cardápio deve estar disponível diariamente
+- **[RN101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
+- **[RN102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
+- **[RN103]** - Na criação do cardápio quando o colaborador do restaurante não definir um numero de pedidos por categoria o sistema impõe como padrão um item.
 - **[RR105]** - Na funcionalidade de Agendar cardápio descrito no requisito [RF115], o colaborador do restaurante deve preencher os seguintes dados de forma obrigatória: Data , Horário que vai ser disponibilizado, e um cardápio já persistido.
-- **[RR106]** - Na solicitação de edição de prazo limite são obrigatórios esses campos: Novo prazo limite, Obras que tem que estar persistidas, 
-- **[RR107]** - As impressões dos pedidos devem ser padronizadas, contento apenas os Nomes dos itens do catálogo mestre e a quantidade.
-- **[RR108]** - O restaurante pode manter até 3 cardápio ativos, cada um desses representando um horário de Refeição(Café da manhã, Almoço, Janta)
-- **[RR109]** - As categorias geradas por padrão pelo sistema são: Prato Feito que pode comportar apenas Pratos Feitos e Bebidas que podem comportar somente itens do tipo Bebidas
-- **[RR110]** - Em relação a Tipo de Item o sistema já teria alguns padrões que não podem ser excluídos pelo colaborador do restaurante, seriam esses tipos: Bebidas, Verdura, Sobremesas, Carne, Guarnição
-- **[RR111]** -O cardápio disponibilizado pelo sistema vai seguir essa prioridade 1.Cardápios Agendados, 2.Cardápios Definidos Como Padrão, 3.Ultimo cardápio utilizado daquele dia
-- **[RR112]** - O sistema deve trocar automaticamente o cardápio de uma determinada obra quando o horário da refeição daquela obra já tiver passado.
-- **[RR113]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
-- **[RR114]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
-- **[RR117]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
-- **[RR115]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
-- **[RR116]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
-- **[RR119]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
-- **[RR118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
-- **[RR120]** - O Tipo de item só pode ser excluído se não tiverem nenhum item ou categoria associado à ele
-- **[RR121]** - A data provida no agendamento de cardápio não pode estar no passado
-- **[RR122]** - Os três possíveis valores para horário de refeição são : Café da manhã, Almoço, Janta
-- **[RR123]** - Os preços dos pedidos são tabelados em 20 reais por pedido, a obra cobre o pedido da noite, visto que funcionário da construtora está fazendo hora extra
+- **[RN106]** - Na solicitação de edição de prazo limite são obrigatórios esses campos: Novo prazo limite, Obras que tem que estar persistidas, 
+- **[RN107]** - As impressões dos pedidos devem ser padronizadas, contento apenas os Nomes dos itens do catálogo mestre e a quantidade.
+- **[RN108]** - O restaurante pode manter até 3 cardápio ativos, cada um desses representando um horário de Refeição(Café da manhã, Almoço, Janta)
+- **[RN109]** - As categorias geradas por padrão pelo sistema são: Prato Feito que pode comportar apenas Pratos Feitos e Bebidas que podem comportar somente itens do tipo Bebidas
+- **[RN110]** - Em relação a Tipo de Item o sistema já teria alguns padrões que não podem ser excluídos pelo colaborador do restaurante, seriam esses tipos: Bebidas, Verdura, Sobremesas, Carne, Guarnição
+- **[RN111]** -O cardápio disponibilizado pelo sistema vai seguir essa prioridade 1.Cardápios Agendados, 2.Cardápios Definidos Como Padrão, 3.Ultimo cardápio utilizado daquele dia
+- **[RN112]** - O sistema deve trocar automaticamente o cardápio de uma determinada obra quando o horário da refeição daquela obra já tiver passado.
+- **[RN113]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
+- **[RN114]** - Não pode existir entidades com nomes iguais. Exemplo: se existir um item com o nome Pimenta não pode existir um outro item com esse nome, porém pode existir uma Categoria com esse nome.
+- **[RN117]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
+- **[RN115]** - Na criação de categoria o colaborador do restaurante tem que informar o nome da categoria e os tipos de itens que ele aceita, se o colaborador não definir os itens que a categoria aceita, a categoria vai aceitar todos os itens
+- **[RN116]** - Na criação de categoria o nome é obrigatório mas os Tipo de Itens não são
+- **[RN119]** - Para se criar um cardápio é necessário o nome do cardápio e ao menos uma categoria e um item ou Prato Feito associada a essa categoria
+- **[RN118]** - Um restaurante não pode possuir 2 ou mais cardápios ativos ou padrões que ocupem o mesmo horário de refeição
+- **[RN120]** - O Tipo de item só pode ser excluído se não tiverem nenhum item ou categoria associado à ele
+- **[RN121]** - A data provida no agendamento de cardápio não pode estar no passado
+- **[RN122]** - Os três possíveis valores para horário de refeição são : Café da manhã, Almoço, Janta
+- **[RN123]** - Os preços dos pedidos são tabelados em 20 reais por pedido, a obra cobre o pedido da noite, visto que funcionário da construtora está fazendo hora extra
 
   
 
