@@ -167,7 +167,7 @@ As regras são descritas como [RR000  - RR999]
 - **[RN101]** - O colaborador do restaurante só pode atualizar o status do pedido para uma das seguintes opções: Em preparo, Pronto, Saiu para Entrega, Imprimido.
 - **[RN102]** - No caso de o funcionário da construtora for fazer a refeição presencialmente ele deve disponibilizar a sua matricula para o colaborador do restaurante responsável.
 - **[RN103]** - Na criação do cardápio quando o colaborador do restaurante não definir um numero de pedidos por categoria o sistema impõe como padrão um item.
-- **[RR105]** - Na funcionalidade de Agendar cardápio descrito no requisito [RF115], o colaborador do restaurante deve preencher os seguintes dados de forma obrigatória: Data , Horário que vai ser disponibilizado, e um cardápio já persistido.
+- **[RR105]** - Na funcionalidade de Agendar cardápio descrito no requisito [RF115], o colaborador do restaurante deve preencher os seguintes dados de forma obrigatória: Data (Nao podendo estar no passado) , Horário que vai ser disponibilizado, e um cardápio já persistido.
 - **[RN106]** - Na solicitação de edição de prazo limite são obrigatórios esses campos: Novo prazo limite, Obras que tem que estar persistidas, 
 - **[RN107]** - As impressões dos pedidos devem ser padronizadas, contento apenas os Nomes dos itens do catálogo mestre e a quantidade.
 - **[RN108]** - O restaurante pode manter até 3 cardápio ativos, cada um desses representando um horário de Refeição(Café da manhã, Almoço, Janta)
